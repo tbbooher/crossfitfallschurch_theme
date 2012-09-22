@@ -48,12 +48,6 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
-<!-- tim modification eieio -->
-<!-- this exists below
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
--->
-
-
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -69,10 +63,8 @@
 </script>
 
 <!-- don't know why i need this -->
+
 <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/smoothness/jquery-ui.css">
-<!--
- <link rel="stylesheet" type="text/css" href="/wp-content/themes/crossfit_adaptation_theme/nivo-slider.css" media="screen">
--->
 
 <!-- end tim modification -->
 
@@ -96,30 +88,17 @@
 ?>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
-<script src="/wp-content/themes/crossfit_adaptation_theme/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<script src="/wp-content/themes/crossfit_fallschurch_theme/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<link href='http://fonts.googleapis.com/css?family=Jura:600,400' rel='stylesheet' type='text/css'>
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed">
-	<header id="branding" role="banner">
 
-    <div class="start" id="header">
-      <a title="CrossFit Adaptation" class="logo" href="http://www.crossfitadaptation.com/"></a>
-      <a title="RSS Feed" class="rss" href="http://www.crossfitadaptation.com/rss">RSS</a>
-      <a title="Facebook" class="fb" href="http://www.facebook.com/pages/CrossFit-Adaptation/115019278525818">Facebook</a>
-      <!-- <a title="Follow us on Twitter" class="tw" href="http://twitter.com/riders_network">Twitter</a> -->
-      <ul>
-        <li><a title="Home" class="home" href="http://www.crossfitadaptation.com/">Home</a></li>
-        <li><a title="Schedule" class="schedule" href="/schedule">Schedule</a></li>
-        <li><a title="Coaches" class="team" href="/Coaches">Coaches</a></li>
-        <li><a title="Join Us" class="join_us" href="/getting-started-2">Join Us</a></li>
-      </ul>
+
+<div class="LayoutP LayoutCenter ArticleGrid">
+
+    <div id="SiteHeader">
+        <img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/CrossFit_FallsChurch_Logo.jpg" width="225" height="95">
     </div>
-    <div id="announce">
-  
-    </div>
-	</header><!-- #branding -->
 
 
-	<div id="main">
-    <div id="start_en_short"></div>

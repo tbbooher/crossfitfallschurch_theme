@@ -14,61 +14,61 @@
 
    get_header(); ?>
 
-<div id="primary">
-	<div id="content" role="main">
+    <div id="Content">
+        <div id="MainAttraction">
+            <div id="slider" class="nivoSlider">
+              <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic1.jpg" alt="" >
+              <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic7.jpg" alt="" >
+              <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic4.jpg" alt="" >
+              <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic5.jpg" alt="" >
+              <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic6.jpg" alt="" >
+            </div>
+            <div id="helpful" class="collapsed"></div>
+            <div id="fold"></div>
+            <div id="htmlcaption" class="nivo-html-caption">
+              <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+            </div>
 
-    <div id="slider" class="nivoSlider">
-      <img src="/wp-content/themes/crossfit_adaptation_theme/images/banner/pic1.jpg" alt="" >
-      <img src="/wp-content/themes/crossfit_adaptation_theme/images/banner/pic7.jpg" alt="" >
-      <img src="/wp-content/themes/crossfit_adaptation_theme/images/banner/pic4.jpg" alt="" >
-      <img src="/wp-content/themes/crossfit_adaptation_theme/images/banner/pic5.jpg" alt="" >
-      <img src="/wp-content/themes/crossfit_adaptation_theme/images/banner/pic6.jpg" alt="" >
-    </div>
+            <br style="clear:both;">
 
-    <div id="htmlcaption" class="nivo-html-caption">
-      <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-    </div>
+            <script type="text/javascript">
+              jQuery(window).load(function() {
+                jQuery('#slider').nivoSlider({effect: 'fade', randomStart: true});
+              });
+            </script>
 
-    <br style="clear:both;">
+            <img src="/wp-content/themes/crossfit_fallschurch_theme/images/wod.png" width="289" height="31" alt="WOD" style="border:none;">
 
-    <script type="text/javascript">
-      jQuery(window).load(function() {
-        jQuery('#slider').nivoSlider({effect: 'fade', randomStart: true});
-      });
-    </script>
+            <?php if ( have_posts() ) : ?>
 
-    <img src="/wp-content/themes/crossfit_adaptation_theme/images/wod.png" width="289" height="31" alt="WOD" style="border:none;">
+            <?php twentyeleven_content_nav( 'nav-above' ); ?>
 
-		<?php if ( have_posts() ) : ?>
+            <?php /* Start the Loop */ ?>
+            <?php while ( have_posts() ) : the_post(); ?>
 
-		<?php twentyeleven_content_nav( 'nav-above' ); ?>
+            <?php get_template_part( 'content', get_post_format() ); ?>
 
-		<?php /* Start the Loop */ ?>
-		<?php while ( have_posts() ) : the_post(); ?>
+            <?php endwhile; ?>
 
-		<?php get_template_part( 'content', get_post_format() ); ?>
+            <?php twentyeleven_content_nav( 'nav-below' ); ?>
 
-		<?php endwhile; ?>
+            <?php else : ?>
 
-		<?php twentyeleven_content_nav( 'nav-below' ); ?>
+            <article id="post-0" class="post no-results not-found">
+                <header class="entry-header">
+                    <h1 class="entry-title"><?php _e( 'Nothing Found', 'twentyeleven' ); ?></h1>
+                </header><!-- .entry-header -->
 
-		<?php else : ?>
+                <div class="entry-content">
+                    <p><?php _e( 'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', 'twentyeleven' ); ?></p>
+                    <?php get_search_form(); ?>
+                </div><!-- .entry-content -->
+            </article><!-- #post-0 -->
 
-		<article id="post-0" class="post no-results not-found">
-			<header class="entry-header">
-				<h1 class="entry-title"><?php _e( 'Nothing Found', 'twentyeleven' ); ?></h1>
-			</header><!-- .entry-header -->
+            <?php endif; ?>
 
-			<div class="entry-content">
-				<p><?php _e( 'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', 'twentyeleven' ); ?></p>
-				<?php get_search_form(); ?>
-			</div><!-- .entry-content -->
-		</article><!-- #post-0 -->
-
-		<?php endif; ?>
-
-	</div><!-- #content -->
-</div><!-- #primary -->
+        </div>
 
 <?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

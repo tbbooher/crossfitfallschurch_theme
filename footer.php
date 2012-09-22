@@ -10,31 +10,35 @@
  */
 ?>
 
-	</div><!-- #main -->
 
-  <!-- tbb add eieio -->
-    <div id="advertise">
-      <div class="btn_adv"> <a href="http://journal.crossfit.com/start.tpl?version=CFJ-graphic123x63" title="CrossFit Journal: The Performance-Based Lifestyle Resource"><img src="http://journal.crossfit.com/templates/images/graphic-125x63.jpg" width="125" height="63" alt="CrossFit Journal: The Performance-Based Lifestyle Resource" /></a></div>
-      <div class="btn_adv">
-        <a href="http://dc.mypowersupply.com/"><img src="/wp-content/themes/crossfit_adaptation_theme/images/powersupply-crest.png" alt="catalyst meals" width="170" height="69" title="Power Supply Meals" style="border:none;"></a>
-      </div>
-      <div class="btn_adv">
-        <a href="http://www.arlingtonsportsmassage.com/">
-           <img src="/wp-content/uploads/2012/03/Erin_logo.jpg" alt="erin logo">
-        </a>
-      </div>
-      <div class="btn_adv">
-        <a href="http://ilovemyspine.com">
-           <img src="/wp-content/uploads/2012/03/i_love_my_spine.png" alt="i love my spine" style="border:none;">
-        </a>
-      </div>
-      <div class="btn_adv">
-          <a target="_blank" href="http://www.shareasale.com/r.cfm?b=326747&u=662935&m=34288&urllink=&afftrack=">
-             <img src="http://www.shareasale.com/image/34288/125x125_performance.jpg" alt="Crossfit Store" border="0">
-          </a>       
-      </div>
-    </div><!-- advertise -->
-  <!-- end tbb -->
+    <div id="SiteFooter" class="Text TextSmall TextInvert">
+        <div class="LayoutBreakAfter">
+            <div class="LayoutGrid-1 LayoutSlimGrid-1 LinkInvert">
+                <div class="LayoutCellSides LayoutCellTop">
+                    <h4><a href="/products/catalog.html?promoid=JOPBT">Products</a></h4>
+                    <ul class="SiteFooterLinkList">
+                        <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat"
+                               href="/products/acrobat.html?promoid=JOPBV">Acrobat</a></li>
+                        <li><a class="icon Icon SiteFooterMenuItemIconProducts"
+                               href="/education/students.edu.html?showEduReq=no&amp;promoid=JUTMH">Student and Teacher
+                            Editions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="LayoutGridBreak">
+                <div class="LayoutCellSides">
+                    <hr>
+                </div>
+            </div>
+            <div class="LayoutGrid-1-4 LayoutSlimGrid-1-2 LinkInvert LinkStrong">
+                <div class="LayoutCellSides LayoutCellBottom LinkInvert">
+                    <p class="SiteFooterRow TextSmall">Copyright &copy; 2012 CrossFit Falls Church. All rights
+                        reserved.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 	<footer id="colophon" role="contentinfo">
 
@@ -46,7 +50,6 @@
 					get_sidebar( 'footer' );
 			?>
 	</footer><!-- #colophon -->
-</div><!-- #page -->
 
 <?php wp_footer(); ?>
 

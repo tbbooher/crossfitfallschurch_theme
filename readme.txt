@@ -1,5 +1,5 @@
-= TWENTY ELEVEN =
+= Crossfit FallsChurch =
 
-* by the WordPress team, http://wordpress.org/
+* by Timothy B. Booher, http://theboohers.org/
 
-== ABOUT TWENTY ELEVEN ==
+== ABOUT CROSSFIT FALLS CHURCH ==
