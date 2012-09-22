@@ -38,6 +38,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 h1 {
     font-family: 'Jura', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
 }
 .LayoutCenter {
     display: block;
@@ -323,4 +325,10 @@ div.SiteHeaderPanelRow {
     text-decoration: none;
     text-shadow: 0 -1px 0 #151515;
     -moz-text-shadow: 0 -1px 0 #151515;
+}
+
+h1.entry-title a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
 }
