@@ -153,33 +153,30 @@ h4 {
     padding-top: 15px;
 }
 
-#helpful {
+.entry-header {
     display: inline-block;
     position: relative;
     left: -22px;
-}
-
-.collapsed {
-    border: 1px solid #6eba45;
+    border: 1px solid #62BB46;
     font-family: myriad-pro-1,myriad-pro-2,Helvetica,Arial,sans-serif;
     font-weight: bold;
     line-height: 125%;
     min-height: 36px;
     padding: 10px 25px 10px 30px;
-    width: auto;
+    width: 550px;
     font-size: 14px;
     color: #333;
-    background: #62BB46;
-    background: -moz-linear-gradient(top, #62BB46 0%, #6eba45 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#62BB46), color-stop(100%,#6eba45));
-    background: -webkit-linear-gradient(top, #62BB46 0%,#6eba45 100%);
-    background: -o-linear-gradient(top, #62BB46 0%,#6eba45 100%);
-    background: -ms-linear-gradient(top, #62BB46 0%,#6eba45 100%);
-    background: linear-gradient(top, #62BB46 0%,#6eba45 100%);
+    background: #8EDD75;
+    background: -moz-linear-gradient(top, #8EDD75 0%, #62BB46 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8EDD75), color-stop(100%,#62BB46));
+    background: -webkit-linear-gradient(top, #8EDD75 0%,#62BB46 100%);
+    background: -o-linear-gradient(top, #8EDD75 0%,#62BB46 100%);
+    background: -ms-linear-gradient(top, #8EDD75 0%,#62BB46 100%);
+    background: linear-gradient(top, #8EDD75 0%,#62BB46 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc700', endColorstr='#ffab00',GradientType=0 );
 }
 
-#fold {
+.fold {
     background: url("/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/fold-green.png") no-repeat scroll 0 0 transparent;
     height: 12px;
     left: -22px;
@@ -218,3 +215,112 @@ a.nivo-nextNav {background-position:-30px 0;right:15px;}
 a.nivo-prevNav {left:15px;}
 .nivo-caption {text-shadow:none;font-family: Helvetica, Arial, sans-serif;font-size:14px;}
 .nivo-caption a {color:#efe9d1;text-decoration:underline;}
+
+/* site header */
+.SiteHeader {
+    position: relative;
+    margin: 0 0 11px;
+    line-height: 14px;
+    color: #333;
+    zoom: 1;
+    z-index: 999;
+    text-rendering: auto;
+}
+
+.SiteHeader * {
+    z-index: inherit;
+}
+
+.SiteHeaderBar {
+    padding-left: 39px;
+    line-height: 39px;
+    background: #424242 none;
+    background: -webkit-gradient(linear,left top,left bottom,from(#505050),to(#343434));
+    background: -moz-linear-gradient(top,#505050,#343434);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF505050,endColorstr=#FF343434);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF505050, endColorstr=#FF343434)";
+    background: -ms-linear-gradient(top,#505050,#343434);
+    background: -o-linear-gradient(top,#505050,#343434);
+}
+
+.SiteHeaderBar, .SiteHeaderUser {
+    _height: 1em;
+    zoom: 1;
+}
+
+.SiteHeaderBar::after, .SiteHeaderUser::after {
+    clear: both;
+    content: " 0020";
+    height: 0;
+    display: block;
+}
+
+.Text::selection, .Text ::selection {
+    background: #447099;
+    color: white;
+}
+
+.SiteHeaderBarItemFirst {
+    border-left: 1px solid #414141;
+}
+
+.SiteHeaderBarItem {
+    position: relative;
+    float: left;
+    border-left: 1px solid #4C4C4C;
+    border-right: 1px solid black;
+    padding: 1px 16px 0 16px;
+    margin: 0;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.SiteHeaderBar {
+    line-height: 39px;
+}
+
+.SiteHeaderDropPanel {
+    position: absolute;
+    background-color: white;
+    border: 1px solid;
+    border-color: #2F4E6B #B0B0B0 #737373;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 4px 10px -moz-rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, .5);
+    z-index: 100;
+    top: 100%;
+    left: 0;
+    width: 220px;
+    color: #333;
+    padding: 6px 0;
+    margin-top: -1px;
+    _margin-top: 0;
+    margin-left: -1px;
+    line-height: normal;
+    zoom: 100%;
+}
+
+div.SiteHeaderPanelRow {
+    padding: 5px 12px;
+    position: relative;
+}
+
+.SiteHeader * {
+    z-index: inherit;
+}
+
+.SiteHeaderBarItem {
+    cursor: pointer;
+}
+
+.SiteHeaderDropPanel {
+    color: #333;
+    line-height: normal;
+}
+
+.SiteHeaderBarLink, a.SiteHeaderBarLink, a.SiteHeaderBarLink:link, a.SiteHeaderBarLink:visited, a.SiteHeaderBarLink:active, a.SiteHeaderBarLink:hover, a.SiteHeaderBarLink:visited:hover {
+    color: #DDD!important;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #151515;
+    -moz-text-shadow: 0 -1px 0 #151515;
+}

@@ -23,8 +23,6 @@
               <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic5.jpg" alt="" >
               <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic6.jpg" alt="" >
             </div>
-            <div id="helpful" class="collapsed"></div>
-            <div id="fold"></div>
             <div id="htmlcaption" class="nivo-html-caption">
               <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
             </div>
@@ -36,8 +34,6 @@
                 jQuery('#slider').nivoSlider({effect: 'fade', randomStart: true});
               });
             </script>
-
-            <img src="/wp-content/themes/crossfit_fallschurch_theme/images/wod.png" width="289" height="31" alt="WOD" style="border:none;">
 
             <?php if ( have_posts() ) : ?>
 
