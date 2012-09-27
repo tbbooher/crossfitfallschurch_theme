@@ -94,11 +94,7 @@
 
 <body <?php body_class(); ?>>
 
-
-<div class="LayoutP LayoutCenter ArticleGrid">
-
-
-    <div class="SiteHeader Text TextSmall" style="float:right;">
+<div class="SiteHeader Text TextSmall">
 
         <div class="SiteHeaderBar" id="shBar">
             <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="shProducts">
@@ -196,6 +192,10 @@
 
         </div>
     </div>
+
+
+<div class="LayoutP LayoutCenter ArticleGrid">
+    
     <div id="SiteHeader">
-        <img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/CrossFit_FallsChurch_Logo.jpg" width="225" height="95">
+        <img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top_logo.png" style="margin-left:-10px;">
     </div>

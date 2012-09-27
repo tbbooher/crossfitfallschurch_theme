@@ -132,7 +132,7 @@ h4 {
     padding-left: 13px;
 }
 #SiteHeader {
-    margin-top:13px;
+    margin-top:0px;
 }
 /* sidebar stuff */
 .featureBox {
@@ -220,13 +220,16 @@ a.nivo-prevNav {left:15px;}
 
 /* site header */
 .SiteHeader {
-    position: relative;
-    margin: 0 0 11px;
+/*    position: relative; */
+/*    margin: 0 0 11px; */
     line-height: 14px;
     color: #333;
     zoom: 1;
     z-index: 999;
     text-rendering: auto;
+    margin: auto;
+    width: 775px;
+    float:right;
 }
 
 .SiteHeader * {
@@ -234,7 +237,7 @@ a.nivo-prevNav {left:15px;}
 }
 
 .SiteHeaderBar {
-    padding-left: 39px;
+    padding-left: 10px;
     line-height: 39px;
     background: #424242 none;
     background: -webkit-gradient(linear,left top,left bottom,from(#505050),to(#343434));
@@ -243,6 +246,7 @@ a.nivo-prevNav {left:15px;}
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF505050, endColorstr=#FF343434)";
     background: -ms-linear-gradient(top,#505050,#343434);
     background: -o-linear-gradient(top,#505050,#343434);
+    margin-right: 152px;
 }
 
 .SiteHeaderBar, .SiteHeaderUser {
