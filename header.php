@@ -107,7 +107,7 @@
 <div class="SiteHeader Text TextSmall">
 
     <div id="SiteLogo">
-        <img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top_logo.png">
+        <a href="/" style="border:none;"><img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top_logo.png"></a>
     </div>
 
     <div class="SiteHeaderBar" id="shBar">

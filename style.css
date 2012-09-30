@@ -29,6 +29,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     font-family: inherit;
 }
+
 .LayoutCell, .LayoutCellSides {
     padding-left: 11px;
     padding-right: 11px;
@@ -483,3 +484,40 @@ div.SiteHeaderPanelLink a, div.SiteHeaderPanelLink a:link, div.SiteHeaderPanelLi
   color: #333;
 }
 
+h2 {
+  border-top: solid 1px #DDD;
+  padding-top: 12px;
+  margin-bottom: 9px;
+  font-weight: bold;
+  margin-top:18px;
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+h3 {
+    border-top: solid 1px #DDD;
+    padding-top: 12px;
+    margin-bottom: 9px;
+    font-weight: bold;
+    margin-top:18px;
+    display: block;
+    font-size: 1em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+a, a:visited  {
+color: #386A60;
+}
+
+#Sidebar ul {
+    list-style-type: none;
+}
