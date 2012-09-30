@@ -129,7 +129,7 @@
             </div>
         </div>
 
-        <a href="/go/gnav_learning_en_us" id="get_started" class="SiteHeaderBarItem SiteHeaderBarLink">Get Started</a>
+        <a href="/get-started/" id="get_started" class="SiteHeaderBarItem SiteHeaderBarLink">Get Started</a>
 
         <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="our_programs_panel">
             <a href="/our-programs/" id="our_programs" class="SiteHeaderBarLink" style="">Our Programs</a>
