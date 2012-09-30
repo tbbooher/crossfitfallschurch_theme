@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef8c42a9-62b1-4e31-bcde-8eef228758ba" name="Default" comment="" />
+    <list default="true" id="ef8c42a9-62b1-4e31-bcde-8eef228758ba" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+    </list>
     <ignored path="crossfit_fallschurch_theme.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,86 +20,69 @@
     <disable_hints />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="29" selection-start="1765" selection-end="1765" vertical-scroll-proportion="-10.0">
-                  <folding>
-                    <marker date="1348881655000" expanded="true" signature="61386:61719" placeholder="..." />
-                    <marker date="1348881655000" expanded="true" signature="85516:85735" placeholder="..." />
-                    <marker date="1348881655000" expanded="true" signature="85674:85723" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="basic.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/basic.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="89" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="2" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#36275#36938#2" expanded="true" />
-                    <element signature="e#54704#55367#2" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="435" column="0" selection-start="12727" selection-end="12727" vertical-scroll-proportion="-5.419355">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/header.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="208" column="31" selection-start="8630" selection-end="8630" vertical-scroll-proportion="0.86620414">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="compressed_pretty.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/compressed_pretty.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12128" column="71" selection-start="602946" selection-end="602984" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="248" column="13" selection-start="8332" selection-end="8332" vertical-scroll-proportion="0.49702382">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="29" selection-start="1765" selection-end="1765" vertical-scroll-proportion="-10.0">
+              <folding>
+                <marker date="1348881655000" expanded="true" signature="61386:61719" placeholder="..." />
+                <marker date="1348881655000" expanded="true" signature="85516:85735" placeholder="..." />
+                <marker date="1348881655000" expanded="true" signature="85674:85723" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="89" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="2" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#36275#36938#2" expanded="true" />
+                <element signature="e#54704#55367#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="435" column="0" selection-start="12727" selection-end="12727" vertical-scroll-proportion="-5.419355">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="181" column="12" selection-start="7220" selection-end="7220" vertical-scroll-proportion="0.7434608">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compressed_pretty.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compressed_pretty.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12128" column="71" selection-start="602946" selection-end="602984" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -124,16 +109,16 @@
         <option value="$PROJECT_DIR$/basic.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test.css" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/header.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1176" />
+    <option name="y" value="52" />
+    <option name="width" value="1261" />
+    <option name="height" value="1148" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -283,7 +268,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1176" extended-state="6" />
+    <frame x="65" y="52" width="1261" height="1148" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -398,16 +383,16 @@
         <state line="2" column="0" selection-start="90973" selection-end="90973" vertical-scroll-proportion="0.028873917" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="89" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1187" column="119" selection-start="58401" selection-end="58401" vertical-scroll-proportion="17.847715" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1821" column="17" selection-start="38439" selection-end="38445" vertical-scroll-proportion="0.51573604">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
@@ -421,6 +406,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="89" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="2" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0">
@@ -431,9 +423,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2.css">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1821" column="17" selection-start="38439" selection-end="38445" vertical-scroll-proportion="0.51573604">
+        <state line="435" column="0" selection-start="12727" selection-end="12727" vertical-scroll-proportion="-5.419355">
           <folding />
         </state>
       </provider>
@@ -447,14 +439,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="208" column="31" selection-start="8630" selection-end="8630" vertical-scroll-proportion="0.86620414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="13" selection-start="8332" selection-end="8332" vertical-scroll-proportion="0.49702382">
+        <state line="181" column="12" selection-start="7220" selection-end="7220" vertical-scroll-proportion="0.7434608">
           <folding />
         </state>
       </provider>

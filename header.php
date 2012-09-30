@@ -111,94 +111,87 @@
     </div>
 
     <div class="SiteHeaderBar" id="shBar">
-        <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="shProducts">
-            <a href="/products/catalog.html" id="shProductsLink" class="SiteHeaderBarLink" style="">What is CrossFit?</a>
-            <div class="SiteHeaderDropPanel" id="ProductsPanel" style="display: none; ">
-                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts3">
-                    <span class="SiteHeaderPanelHeader"><a href="/products/acrobat.html?promoid=JOLIR">Introduction</a></span>
+        <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="introduction_panel">
+            <a href="/introduction/" id="introduction_link" class="SiteHeaderBarLink" style="">Introduction</a>
+            <div class="SiteHeaderDropPanel" id="introduction_panel" style="display: none;">
+                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="intro1">
+                    <span class="SiteHeaderPanelHeader"><a href="/introduction/what-is-crossfit/">What is CrossFit?</a></span>
                 </div>
 
-                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts9">
-                    <span class="SiteHeaderPanelHeader"><a href="/products/creativecloud.html?promoid=JQPEQ">Testimonials</a></span>
+                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="intro2">
+                    <span class="SiteHeaderPanelHeader"><a href="/introduction/testimonials/">Testimonials</a></span>
                 </div>
 
-                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts1">
-                    <span class="SiteHeaderPanelHeader"><a href="/products/creativesuite.html?promoid=JOLIS">FAQ</a></span>
-                </div>
-
-            </div>
-        </div>
-
-        <a href="/go/gnav_learning_en_us" id="shLearning" class="SiteHeaderBarItem SiteHeaderBarLink">Get Started</a>
-
-        <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="shSolutions">
-            <a href="/solutions.html" id="shSolutionsLink" class="SiteHeaderBarLink" style="">Our Programs</a>
-            <div class="SiteHeaderDropPanel" id="SolutionsPanel" style="display: none; ">
-                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions8">
-                    <span class="SiteHeaderPanelHeader"><a href="/products/creativesuite/companies.html?promoid=JZVVU">Overview</a></span>
-                </div>
-
-                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions5">
-                    <span class="SiteHeaderPanelHeader"><a href="/marketing/?promoid=JOLIX">Group Classes</a></span>
-                </div>
-
-                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions1">
-                    <span class="SiteHeaderPanelHeader"><a href="/digital-media/?promoid=JOLIY">Private Classes</a></span>
-                </div>
-
-                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions2">
-                    <span class="SiteHeaderPanelHeader"><a href="/education.html?promoid=JOLIZ">BB Club</a></span>
-                </div>
-
-                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions3">
-                    <span class="SiteHeaderPanelHeader"><a href="/go/gnavtray_solutions_financialservices_en_us">Yoga</a></span>
+                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="intro3">
+                    <span class="SiteHeaderPanelHeader"><a href="/introduction/faq/">FAQ</a></span>
                 </div>
 
             </div>
         </div>
 
-        <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="schedule_and_fees">
-            <a href="/go/gnav_store_en_us" class="SiteHeaderBarLink" id="schedule_and_feesLink" style="">Schedule & Fees</a>
+        <a href="/go/gnav_learning_en_us" id="get_started" class="SiteHeaderBarItem SiteHeaderBarLink">Get Started</a>
+
+        <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="our_programs_panel">
+            <a href="/our-programs/" id="our_programs" class="SiteHeaderBarLink" style="">Our Programs</a>
+            <div class="SiteHeaderDropPanel" id="OurProgramsPanel" style="display: none; ">
+                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="programs1">
+                    <span class="SiteHeaderPanelHeader"><a href="/our-programs/overview/">Overview</a></span>
+                </div>
+
+                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="programs2">
+                    <span class="SiteHeaderPanelHeader"><a href="/our-programs/group-classes/">Group Classes</a></span>
+                </div>
+
+                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="programs3">
+                    <span class="SiteHeaderPanelHeader"><a href="/our-programs/private-classes/">Private Classes</a></span>
+                </div>
+
+                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="programs4">
+                    <span class="SiteHeaderPanelHeader"><a href="/our-programs/bar-bell-club/">BB Club</a></span>
+                </div>
+
+                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="programs5">
+                    <span class="SiteHeaderPanelHeader"><a href="/our-programs/yoga-for-athletes/">Yoga</a></span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="schedule_and_fees_panel">
+            <a href="/schedule-and-fees/" class="SiteHeaderBarLink" id="schedule_and_fees" style="">Schedule & Fees</a>
             <div class="SiteHeaderDropPanel" id="StorePanel" style="display: none; ">
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="schedule_and_fees1">
-                    <span class="SiteHeaderPanelHeader"><a href="/go/gnavtray_store_homeuse_en_us">Class Schedule</a></span>
-                    for personal and home office
+                    <span class="SiteHeaderPanelHeader"><a href="/schedule-and-fees/schedule/">Class Schedule</a></span>
                 </div>
 
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="schedule_and_fees2">
-                    <span class="SiteHeaderPanelHeader"><a href="/go/gnavtray_store_education_en_us">Fees</a></span>
-                    for students, educators, and staff
+                    <span class="SiteHeaderPanelHeader"><a href="/schedule-and-fees/prices/">Prices</a></span>
                 </div>
 
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="schedule_and_fees3">
-                    <span class="SiteHeaderPanelHeader"><a href="/go/gnavtray_store_business_en_us">Dropping In</a></span>
-                    for small and medium businesses
+                    <span class="SiteHeaderPanelHeader"><a href="/schedule-and-fees/dropping-in/">Dropping In</a></span>
                 </div>
-
             </div>
         </div>
 
-        <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="about_us">
-            <a href="/go/gnav_store_en_us" class="SiteHeaderBarLink" id="about_usLink" style="">About Us</a>
-            <div class="SiteHeaderDropPanel" id="About_us_Panel" style="display: none; ">
+        <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="about_us_panel">
+            <a href="/about-us/" class="SiteHeaderBarLink" id="about_usLink" style="">About Us</a>
+            <div class="SiteHeaderDropPanel" id="About_us_Panel" style="display: none;">
+
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="about_us1">
-                    <span class="SiteHeaderPanelHeader"><a href="/go/gnavtray_store_homeuse_en_us">Our Staff</a></span>
-                    for personal and home office
+                    <span class="SiteHeaderPanelHeader"><a href="/about-us/staff/">Staff</a></span>
                 </div>
 
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="about_us2">
-                    <span class="SiteHeaderPanelHeader"><a href="/go/gnavtray_store_education_en_us">Our Community</a></span>
-                    for students, educators, and staff
+                    <span class="SiteHeaderPanelHeader"><a href="/about-us/community/">Our Community</a></span>
                 </div>
 
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="about_us3">
-                    <span class="SiteHeaderPanelHeader"><a href="/go/gnavtray_store_business_en_us">Location</a></span>
-                    for small and medium businesses
+                    <span class="SiteHeaderPanelHeader"><a href="/about-us/location/">Location</a></span>
                 </div>
 
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="about_us4">
-                    <span class="SiteHeaderPanelHeader"><a href="/go/gnavtray_store_business_en_us">Contact</a></span>
-                    for small and medium businesses
+                    <span class="SiteHeaderPanelHeader"><a href="/about-us/contact/">Contact</a></span>
                 </div>
 
             </div>
