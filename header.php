@@ -1,6 +1,6 @@
 <?php
 /**
- * The Header for our theme.
+ * The Header for the CFFC theme
  *
  * Displays all of the <head> section and everything up till <div id="main">
  *
@@ -8,7 +8,10 @@
  * @subpackage Twenty_Eleven
  * @since Twenty Eleven 1.0
  */
-?><!DOCTYPE html>
+?>
+
+<!DOCTYPE html>
+
 <!--[if IE 6]>
 <html id="ie6" <?php language_attributes(); ?>>
 <![endif]-->
@@ -22,9 +25,14 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width" />
-<title><?php
+
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+
+<meta name="viewport" content="width=device-width">
+
+<title>
+
+<?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
 	 */
@@ -44,23 +52,12 @@
 	if ( $paged >= 2 || $page >= 2 )
 		echo ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) );
 
-	?></title>
+	?>
+</title>
+
 <link rel="profile" href="http://gmpg.org/xfn/11" />
+
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-25308652-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 
 <!-- don't know why i need this -->
 
@@ -69,9 +66,11 @@
 <!-- end tim modification -->
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
+
 <?php
 	/* We add some JavaScript to pages with the comment form
 	 * to support sites with threaded comments (when in use).
@@ -87,9 +86,20 @@
 	wp_head();
 ?>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="/wp-content/themes/crossfit_fallschurch_theme/basic.js"></script>
+
 <script src="/wp-content/themes/crossfit_fallschurch_theme/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="//use.typekit.net/kma6wiy.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<!-- THE FONT I NEED -->
 <link href='http://fonts.googleapis.com/css?family=Jura:600,400' rel='stylesheet' type='text/css'>
+<!-- /END FONT -->
+
 </head>
 
 <body <?php body_class(); ?>>

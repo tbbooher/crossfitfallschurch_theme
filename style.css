@@ -220,16 +220,12 @@ a.nivo-prevNav {left:15px;}
 
 /* site header */
 .SiteHeader {
-/*    position: relative; */
-/*    margin: 0 0 11px; */
     line-height: 14px;
     color: #333;
     zoom: 1;
     z-index: 999;
     text-rendering: auto;
     margin: auto;
-    width: 775px;
-    float:right;
 }
 
 .SiteHeader * {
@@ -246,7 +242,7 @@ a.nivo-prevNav {left:15px;}
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF505050, endColorstr=#FF343434)";
     background: -ms-linear-gradient(top,#505050,#343434);
     background: -o-linear-gradient(top,#505050,#343434);
-    margin-right: 152px;
+    margin-right: 440px;
 }
 
 .SiteHeaderBar, .SiteHeaderUser {
@@ -336,3 +332,150 @@ h1.entry-title a {
     font-size: 25px;
     color: black;
 }
+
+/* adding as a test */
+
+.siteheaderbaritem {
+  position: relative;
+  float: left;
+  border-left: 1px solid #4C4C4C;
+  border-right: 1px solid black;
+  margin: 0;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.siteheaderdroppanel {
+  position: absolute;
+  background-color: white;
+  border: 1px solid;
+  border-top: 0;
+  border-color: #2F4E6B #B0B0B0 #737373;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 0 4px 10px -moz-rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, .5);
+  z-index: 1000;
+  top: 100%;
+  left: 0;
+  width: 18.333em;
+  color: #333;
+  padding: 6px 0;
+  margin-top: 0;
+  _margin-top: 0;
+  margin-left: -1px;
+  line-height: normal;
+  display: block;
+  _display: none;
+}
+
+.siteheaderdropdownlink .siteheaderdroppanel, .siteheaderdropdownlink .siteheaderdroppanelhidden, .siteheaderdropdownlink:hover .siteheaderdroppanel.siteheaderdroppanelhidden, .siteheaderbaritemhover .siteheaderdroppanel.siteheaderdroppanelhidden, .siteheaderbaritemfocus .siteheaderdroppanel.siteheaderdroppanelhidden {
+  display: block;
+  _display: none;
+  height: 1px;
+  overflow: hidden;
+  top: -9999em;
+  z-index: 1000;
+}
+
+.siteheaderdropdownlink .siteheaderdroppanel, .siteheaderdropdownlink .siteheaderdroppanelhidden, .siteheaderdropdownlink:hover .siteheaderdroppanel.siteheaderdroppanelhidden, .siteheaderbaritemhover .siteheaderdroppanel.siteheaderdroppanelhidden, .siteheaderbaritemfocus .siteheaderdroppanel.siteheaderdroppanelhidden {
+  display: block;
+  _display: none;
+  height: 1px;
+  overflow: hidden;
+  top: -9999em;
+  z-index: 1000;
+}
+
+div.siteheaderpanelrow a, .siteheaderpanelheader a {
+  position: relative;
+  display: block;
+  overflow: visible;
+  width: auto;
+  height: 100%;
+  padding: 5px 12px;
+}
+
+div.siteheaderpanelrow a, .siteheaderpanelheader a {
+  position: relative;
+  display: block;
+  overflow: visible;
+  width: auto;
+  height: 100%;
+  padding: 5px 12px;
+}
+
+div.siteheaderpanellink a, div.siteheaderpanellink a:link, div.siteheaderpanellink a:visited, div.siteheaderpanellink a:active {
+  text-decoration: none;
+  color: #333;
+}
+
+div.siteheaderpanellinkhover, div.siteheaderpanellinkhover a, div.siteheaderpanellink a:hover, div.siteheaderpanellink a:focus {
+  background-color: #069;
+  color: white!important;
+  text-decoration: none;
+}
+
+/* link information */
+
+.Link a, .Link a:link, .Link a:visited, a.Link, a.Link:link, a.Link:visited {
+    text-decoration: none;
+    cursor: pointer
+}
+
+.Link a:hover, .Link a:visited:hover, a.Link:hover, a.Link:visited:hover {
+  color: #7193B2;
+}
+
+.Link a:hover, .Link a:visited:hover, a.Link:hover, a.Link:visited:hover {
+    text-decoration: underline
+}
+
+a.Link:focus, .Link a:focus {
+    outline: 1px solid rgba(68, 112, 158, .25);
+    -webkit-box-shadow: 0 0 4px #447099;
+    -moz-box-shadow: 0 0 4px #447099;
+    box-shadow: 0 0 4px #447099
+}
+
+.Link a:hover, .Link a:visited:hover, a.Link:hover, a.Link:visited:hover {
+  color: #7193B2;
+}
+
+div.SiteHeaderPanelLinkHover, div.SiteHeaderPanelLinkHover a, div.SiteHeaderPanelLink:hover, div.SiteHeaderPanelLink:hover a, div.SiteHeaderPanelLink a:hover {
+  background-color: #069;
+  color: white!important;
+}
+
+div.SiteHeaderPanelRow a, .SiteHeaderPanelHeader a {
+  display: block;
+  width: 100%;
+}
+
+div.SiteHeaderPanelRow a, .SiteHeaderPanelHeader a {
+  display: block;
+  width: 100%;
+}
+
+.Text::selection, .Text ::selection {
+  background: #447099;
+  color: white;
+}
+
+.SiteHeaderDropPanel {
+  color: #333;
+  line-height: normal;
+}
+
+.Text {
+  font-family: "myriad-pro-1","myriad-pro-2","Helvetica","Arial",sans-serif;
+}
+
+div.SiteHeaderPanelLink a, div.SiteHeaderPanelLink a:link, div.SiteHeaderPanelLink a:visited, div.SiteHeaderPanelLink a:active, div.SiteHeaderPanelLink a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+.Text {
+  color: #333;
+}
+
