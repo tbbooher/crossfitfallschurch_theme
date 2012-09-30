@@ -131,8 +131,10 @@ h4 {
 .widget {
     padding-left: 13px;
 }
-#SiteHeader {
+#SiteLogo {
     margin-top:0px;
+    float:left;
+    width:300px;
 }
 /* sidebar stuff */
 .featureBox {
@@ -226,6 +228,7 @@ a.nivo-prevNav {left:15px;}
     z-index: 999;
     text-rendering: auto;
     margin: auto;
+    width:960px;
 }
 
 .SiteHeader * {
@@ -242,7 +245,8 @@ a.nivo-prevNav {left:15px;}
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF505050, endColorstr=#FF343434)";
     background: -ms-linear-gradient(top,#505050,#343434);
     background: -o-linear-gradient(top,#505050,#343434);
-    margin-right: 440px;
+    float: right;
+    width:613px;
 }
 
 .SiteHeaderBar, .SiteHeaderUser {

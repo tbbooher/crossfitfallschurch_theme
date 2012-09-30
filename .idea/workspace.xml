@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef8c42a9-62b1-4e31-bcde-8eef228758ba" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="crossfit_fallschurch_theme.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,16 +61,16 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="431" column="0" selection-start="12669" selection-end="12669" vertical-scroll-proportion="-5.419355">
+                <state line="435" column="0" selection-start="12727" selection-end="12727" vertical-scroll-proportion="-5.419355">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="206" column="34" selection-start="8620" selection-end="8620" vertical-scroll-proportion="1.692974">
+                <state line="208" column="31" selection-start="8630" selection-end="8630" vertical-scroll-proportion="0.86620414">
                   <folding />
                 </state>
               </provider>
@@ -88,10 +89,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="227" column="17" selection-start="7638" selection-end="7638" vertical-scroll-proportion="0.5649158">
+                <state line="248" column="13" selection-start="8332" selection-end="8332" vertical-scroll-proportion="0.49702382">
                   <folding />
                 </state>
               </provider>
@@ -126,8 +127,8 @@
         <option value="$PROJECT_DIR$/basic.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test.css" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -447,16 +448,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="431" column="0" selection-start="12669" selection-end="12669" vertical-scroll-proportion="-5.419355">
+        <state line="208" column="31" selection-start="8630" selection-end="8630" vertical-scroll-proportion="0.86620414">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="34" selection-start="8620" selection-end="8620" vertical-scroll-proportion="1.692974">
+        <state line="248" column="13" selection-start="8332" selection-end="8332" vertical-scroll-proportion="0.49702382">
           <folding />
         </state>
       </provider>

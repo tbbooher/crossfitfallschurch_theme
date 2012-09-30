@@ -106,8 +106,8 @@
 
 <div class="SiteHeader Text TextSmall">
 
-    <div id="SiteHeader">
-        <img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top_logo.png" style="margin-left:-10px;">
+    <div id="SiteLogo">
+        <img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top_logo.png">
     </div>
 
     <div class="SiteHeaderBar" id="shBar">
@@ -206,7 +206,7 @@
 
     </div><!-- site header bar -->
 </div>
-
+<div style="clear:both;"></div>
 
 <div class="LayoutP LayoutCenter ArticleGrid">
     
