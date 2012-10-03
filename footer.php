@@ -11,7 +11,7 @@
 ?>
 
 
-    <div id="SiteFooter" class="Text TextSmall TextInvert">
+    <div id="SiteFooter" class="SiteFooter Text TextSmall TextInvert Link LayoutBreak">
         <div class="LayoutBreakAfter">
             <div class="LayoutGrid-1 LayoutSlimGrid-1 LinkInvert">
                 <div class="LayoutCellSides LayoutCellTop">

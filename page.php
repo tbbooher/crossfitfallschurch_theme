@@ -14,8 +14,8 @@
 
 get_header(); ?>
 
-		<div id="primary">
-			<div id="content" role="main">
+    <div id="primary">
+        <div id="main">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -25,8 +25,7 @@ get_header(); ?>
 
 				<?php endwhile; // end of the loop. ?>
 
-			</div><!-- #content -->
-		</div><!-- #primary -->
+		</div><!-- MainAttraction -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
