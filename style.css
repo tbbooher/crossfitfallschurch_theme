@@ -14,6 +14,7 @@ html {
     background: url("CFFC_Logo/tile.png") repeat-y scroll center top whiteSmoke;
     color: black;
 }
+
 .LayoutP {
     position: relative;
     z-index: auto;
@@ -62,9 +63,7 @@ h1 {
     font-size: 12px;
     line-height: 16px;
 }
-.TextInvert {
-    color: white;
-}
+
 #SiteFooter {
     margin-top: 16px;
     background: #3D3D3D none;
@@ -599,10 +598,6 @@ header.page-header h1 {
     padding-right: 10px;
 }
 
-.TextInvert {
-    color: white;
-}
-
 .Column::after {
     clear: left;
     content: " 0020";
@@ -616,4 +611,34 @@ ol, ul {
 
 .SiteFooterLinkList a, .SiteFooterLinkList a:link, .SiteFooterLinkList a:visited {
     color: #CCC;
+}
+
+.SiteFooter h4 {
+    font-weight: bold;
+    margin-bottom:8px;
+}
+
+.LinkInvert a:hover, .LinkInvert a:visited:hover, a.LinkInvert:hover, a.LinkInvert:visited:hover {
+    text-decoration: underline;
+}
+
+.LinkInvert a {
+    color: #62BB46;
+}
+
+.TextInvert {
+    color: white;
+}
+
+.SiteFooterLinkList {
+    margin-bottom: 16px;
+}
+
+.SiteFooter li {
+    line-height: 14px;
+    margin-bottom: 4px;
+}
+
+.SiteFooterLinkListBottom {
+    margin-bottom: 0;
 }

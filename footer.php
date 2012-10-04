@@ -13,20 +13,9 @@
 
     <div id="SiteFooter" class="SiteFooter Text TextSmall TextInvert Link LayoutBreak">
         <div class="LayoutBreakAfter">
-            <div class="LayoutGrid-1 LayoutSlimGrid-1 LinkInvert">
+            <div class="LayoutGrid-1 LayoutSlimGrid-2 LinkInvert">
                 <div class="LayoutCellSides LayoutCellTop">
-                    <h4><a href="/products/catalog.html?promoid=JOPBT">Products</a></h4>
-                    <ul class="SiteFooterLinkList">
-                       <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat"
-                               href="/products/acrobat.html?promoid=JOPBV">Acrobat</a></li>
-                       <li><a class="" href="/education/students.edu.html?showEduReq=no&amp;promoid=JUTMH">Student and Teacher
-                            Editions</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="LayoutGrid-2 LayoutSlimGrid-2 LinkInvert">
-                <div class="LayoutCellSides LayoutCellTop">
-                    <h4><a href="/introduction/">introduction</a></h4>
+                    <h4><a href="/introduction/">Introduction</a></h4>
                     <ul class="SiteFooterLinkList">
                       <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/introduction/what-is-crossfit/">what-is-crossfit</a></li>
                       <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/introduction/introduction/">introduction</a></li>
@@ -35,11 +24,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="LayoutGrid-3 LayoutSlimGrid-1 LinkInvert">
+            <div class="LayoutGrid-2 LayoutSlimGrid-1 LinkInvert">
                 <div class="LayoutCellSides LayoutCellTop">
-                    <h4><a href="/get-started/">get-started</a></h4>
+                    <h4><a href="/get-started/">Get Started</a></h4>
 
-                    <h4><a href="/our-programs/">our-programs</a></h4>
+                    <h4><a href="/our-programs/">Our Programs</a></h4>
                     <ul class="SiteFooterLinkList">
                       <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/our-programs/overview/">overview</a></li>
                       <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/our-programs/group-classes/">group-classes</a></li>
@@ -49,9 +38,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="LayoutGrid-4 LayoutSlimGrid-2 LinkInvert">
+            <div class="LayoutGrid-3 LayoutSlimGrid-2 LinkInvert">
                 <div class="LayoutCellSides LayoutCellTop">
-                    <h4><a href="/schedule-and-fees/">schedule-and-fees</a></h4>
+                    <h4><a href="/schedule-and-fees/">Schedule and Fees</a></h4>
                     <ul class="SiteFooterLinkList">
                       <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/schedule-and-fees/schedule/">schedule</a></li>
                       <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/schedule-and-fees/prices/">prices</a></li>
@@ -59,14 +48,24 @@
                     </ul>
                 </div>
             </div>
-            <div class="LayoutGrid-5 LayoutSlimGrid-1 LinkInvert">
+            <div class="LayoutGrid-4 LayoutSlimGrid-1 LinkInvert">
                 <div class="LayoutCellSides LayoutCellTop">
-                    <h4><a href="/about-us/">about-us</a></h4>
+                    <h4><a href="/about-us/">About Us</a></h4>
                     <ul class="SiteFooterLinkList">
                       <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/about-us/staff/">staff</a></li>
                       <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/about-us/community/">community</a></li>
                       <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/about-us/location/">location</a></li>
                       <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/about-us/contact/">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="LayoutGrid-4 LayoutSlimGrid-1 LinkInvert">
+                <div class="LayoutCellSides LayoutCellTop">
+                   <h4>Meta</h4>
+                    <ul class="SiteFooterLinkList">
+                        <?php wp_register(); ?>
+                        <li><?php wp_loginout(); ?></li>
+                        <?php wp_meta(); ?>
                     </ul>
                 </div>
             </div>

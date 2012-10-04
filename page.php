@@ -27,5 +27,4 @@ get_header(); ?>
 
 		</div><!-- MainAttraction -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
