@@ -87,7 +87,7 @@ h1 {
     clear: both;
     display: block;
     height: 0;
-    content: " 0020";
+    content: "\0020";
 }
 .Text::selection, .Text ::selection {
     background: #447099;
@@ -273,7 +273,7 @@ a.nivo-prevNav {left:15px;}
 
 .SiteHeaderBar::after, .SiteHeaderUser::after {
     clear: both;
-    content: " 0020";
+    content: "\0020";
     height: 0;
     display: block;
 }
@@ -600,7 +600,7 @@ header.page-header h1 {
 
 .Column::after {
     clear: left;
-    content: " 0020";
+    content: "\0020";
     display: block;
     height: 0;
 }
@@ -641,4 +641,16 @@ ol, ul {
 
 .SiteFooterLinkListBottom {
     margin-bottom: 0;
+}
+
+.LayoutRow, .LayoutRowBottom {
+    margin-bottom: 9px;
+}
+
+.LayoutRow, .LayoutRowTop {
+    margin-top: 9px;
+}
+
+.LayoutRowSmallest, .LayoutRow, .LayoutSmallRow, .LayoutSmallerRow {
+    display: block;
 }
