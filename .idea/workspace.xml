@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef8c42a9-62b1-4e31-bcde-8eef228758ba" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content-page.php" afterPath="$PROJECT_DIR$/content-page.php" />
     </list>
     <ignored path="crossfit_fallschurch_theme.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +20,7 @@
     <disable_hints />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.32901135">
+    <splitter split-orientation="horizontal" split-proportion="0.6029173">
       <split-first>
         <leaf>
           <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
@@ -69,19 +68,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/page.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.7550432">
+                <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="-17.5">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="content-page.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="content-page.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/content-page.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="39" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
+                <state line="18" column="16" selection-start="524" selection-end="524" vertical-scroll-proportion="0.3116531">
                   <folding />
                 </state>
               </provider>
@@ -100,10 +99,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="599" column="52" selection-start="16048" selection-end="16048" vertical-scroll-proportion="0.20833333">
+                <state line="599" column="52" selection-start="16048" selection-end="16048" vertical-scroll-proportion="0.2673522">
                   <folding />
                 </state>
               </provider>
@@ -152,12 +151,12 @@
         <option value="$PROJECT_DIR$/test.css" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/content-page.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/page.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/content-page.php" />
       </list>
     </option>
   </component>
@@ -441,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="1" selection-start="2683" selection-end="2683" vertical-scroll-proportion="-20.875">
@@ -458,13 +450,6 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="114" column="54" selection-start="3420" selection-end="3420" vertical-scroll-proportion="-5.7083335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
@@ -485,7 +470,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="599" column="52" selection-start="16048" selection-end="16048" vertical-scroll-proportion="0.20833333">
+        <state line="599" column="52" selection-start="16048" selection-end="16048" vertical-scroll-proportion="0.2673522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="-17.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="524" selection-end="524" vertical-scroll-proportion="0.3116531">
           <folding />
         </state>
       </provider>

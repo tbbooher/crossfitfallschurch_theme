@@ -16,7 +16,7 @@
             <h1 class="entry-title"><?php the_title(); ?></h1>
         </header><!-- .entry-header -->
         <div class="ArticleGrid-1 LayoutWideGrid-1 TextSmall PrintLayoutHide">
-          happy
+          &nbsp;
         </div>
         <div class="ArticleGrid-2-4">
           <div class="Column mnemonic photoshop-color">
