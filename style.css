@@ -104,6 +104,23 @@ h1 {
 .LayoutGrid-1, .LayoutGrid-1-2, .LayoutGrid-1-3, .LayoutGrid-1-4, .LayoutGrid-1-5, .LayoutGrid-2, .LayoutGrid-2-3, .LayoutGrid-2-4, .LayoutGrid-2-5, .LayoutGrid-3, .LayoutGrid-3-4, .LayoutGrid-3-5, .LayoutGrid-4, .LayoutGrid-4-5, .LayoutGrid-5 {
     float: left;
 }
+
+.LayoutGrid-2 {
+    width: 169px;
+}
+
+.LayoutGrid-3 {
+    width: 169px;
+}
+
+.LayoutGrid-4 {
+    width: 169px;
+}
+
+.LayoutGrid-5 {
+    width: 220px;
+}
+
 .SiteFooter h4 {
     font-weight: bold;
 }
@@ -514,7 +531,7 @@ h3 {
     font-weight: bold;
 }
 
-a, a:visited  {
+#main a, #main a:visited  {
 color: #386A60;
 }
 
@@ -567,6 +584,10 @@ header.page-header h1 {
     margin-left: 11px;
 }
 
+.LayoutGrid-2, .LayoutGrid-2-3, .LayoutGrid-2-4, .LayoutGrid-2-5, .LayoutGrid-3, .LayoutGrid-3-4, .LayoutGrid-3-5, .LayoutGrid-4, .LayoutGrid-4-5, .LayoutGrid-5 {
+    margin-left: 11px;
+}
+
 .photoshop-color {
     border-top: 4px solid #358D7C;
 }
@@ -589,6 +610,10 @@ header.page-header h1 {
     height: 0;
 }
 
-#SiteFooter a {
-    color: white;
+ol, ul {
+    list-style: none;
+}
+
+.SiteFooterLinkList a, .SiteFooterLinkList a:link, .SiteFooterLinkList a:visited {
+    color: #CCC;
 }

@@ -113,7 +113,7 @@
     <div class="SiteHeaderBar" id="shBar">
         <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="introduction_panel">
             <a href="/introduction/" id="introduction_link" class="SiteHeaderBarLink" style="">Introduction</a>
-            <div class="SiteHeaderDropPanel" id="introduction_panel" style="display: none;">
+            <div class="SiteHeaderDropPanel" id="IntroductionPanel" style="display: none;">
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="intro1">
                     <span class="SiteHeaderPanelHeader"><a href="/introduction/what-is-crossfit/">What is CrossFit?</a></span>
                 </div>
