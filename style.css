@@ -14,6 +14,7 @@ html {
     background: url("CFFC_Logo/tile.png") repeat-y scroll center top whiteSmoke;
     color: black;
 }
+
 .LayoutP {
     position: relative;
     z-index: auto;
@@ -39,7 +40,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 h1 {
     font-family: 'Jura', sans-serif;
-    font-size: 25px;
+    font-size: inherit;
     margin-top: 10px;
 }
 .LayoutCenter {
@@ -53,6 +54,14 @@ h1 {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.ArticleGrid::after {
+    clear: left;
+    content: "\0020";
+    display: block;
+    height: 0;
+}
+
 .Text {
     white-space: normal;
     -webkit-text-size-adjust: none;
@@ -62,9 +71,7 @@ h1 {
     font-size: 12px;
     line-height: 16px;
 }
-.TextInvert {
-    color: white;
-}
+
 #SiteFooter {
     margin-top: 16px;
     background: #3D3D3D none;
@@ -88,7 +95,7 @@ h1 {
     clear: both;
     display: block;
     height: 0;
-    content: " 0020";
+    content: "\0020";
 }
 .Text::selection, .Text ::selection {
     background: #447099;
@@ -104,6 +111,23 @@ h1 {
 .LayoutGrid-1, .LayoutGrid-1-2, .LayoutGrid-1-3, .LayoutGrid-1-4, .LayoutGrid-1-5, .LayoutGrid-2, .LayoutGrid-2-3, .LayoutGrid-2-4, .LayoutGrid-2-5, .LayoutGrid-3, .LayoutGrid-3-4, .LayoutGrid-3-5, .LayoutGrid-4, .LayoutGrid-4-5, .LayoutGrid-5 {
     float: left;
 }
+
+.LayoutGrid-2 {
+    width: 169px;
+}
+
+.LayoutGrid-3 {
+    width: 169px;
+}
+
+.LayoutGrid-4 {
+    width: 169px;
+}
+
+.LayoutGrid-5 {
+    width: 220px;
+}
+
 .SiteFooter h4 {
     font-weight: bold;
 }
@@ -161,14 +185,14 @@ h4 {
 .entry-header {
     display: inline-block;
     position: relative;
-    left: -22px;
+    left: -32px;
     border: 1px solid #62BB46;
     font-family: myriad-pro-1,myriad-pro-2,Helvetica,Arial,sans-serif;
     font-weight: bold;
     line-height: 125%;
     min-height: 36px;
     padding: 10px 25px 10px 30px;
-    width: 550px;
+    width: 100%;
     font-size: 14px;
     color: #333;
     background: #8EDD75;
@@ -184,7 +208,7 @@ h4 {
 .fold {
     background: url("/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/fold-green.png") no-repeat scroll 0 0 transparent;
     height: 12px;
-    left: -22px;
+    left: -32px;
     top: 0;
     position: relative;
     width: 12px;
@@ -257,7 +281,7 @@ a.nivo-prevNav {left:15px;}
 
 .SiteHeaderBar::after, .SiteHeaderUser::after {
     clear: both;
-    content: " 0020";
+    content: "\0020";
     height: 0;
     display: block;
 }
@@ -334,7 +358,7 @@ div.SiteHeaderPanelRow {
 
 h1.entry-title a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: inherit;
     color: black;
 }
 
@@ -514,10 +538,148 @@ h3 {
     font-weight: bold;
 }
 
-a, a:visited  {
+#main a, #main a:visited  {
 color: #386A60;
 }
 
 #Sidebar ul {
     list-style-type: none;
+}
+
+.pagetitle {
+    margin-right: 12px;
+}
+
+header.page-header {
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 300;
+    margin-bottom: 3px;
+    margin-top: 3px
+}
+
+header.page-header h1 {
+    margin-left:231px;
+}
+
+/* layout stuff */
+
+.LayoutGridBreakAfter, .LayoutBreakAfter {
+    _height: 1em;
+    min-height: 0;
+    display: block;
+}
+
+.ArticleGrid-1, .ArticleGrid-1-2, .ArticleGrid-1-3, .ArticleGrid-1-4, .ArticleGrid-2, .ArticleGrid-2-3, .ArticleGrid-2-4, .ArticleGrid-3, .ArticleGrid-3-4, .ArticleGrid-4 {
+    float: left;
+}
+
+.ArticleGrid-1, .ArticleGrid-1-2, .ArticleGrid-1-3, .ArticleGrid-1-4, .ArticleGrid-2-3 .ArticleGrid-2, .ArticleGrid-2-4 .ArticleGrid-2, .ArticleGrid-2-4 .ArticleGrid-2-3, .ArticleGrid-3-4 .ArticleGrid-3 {
+    clear: left;
+    margin-left: 0;
+}
+
+.ArticleGrid-1 {
+    width: 220px;
+}
+
+.ArticleGrid-2-4 {
+    width: 709px;
+}
+
+.ArticleGrid-2, .ArticleGrid-2-3, .ArticleGrid-2-4, .ArticleGrid-3, .ArticleGrid-3-4, .ArticleGrid-4 {
+    margin-left: 11px;
+}
+
+.LayoutGrid-2, .LayoutGrid-2-3, .LayoutGrid-2-4, .LayoutGrid-2-5, .LayoutGrid-3, .LayoutGrid-3-4, .LayoutGrid-3-5, .LayoutGrid-4, .LayoutGrid-4-5, .LayoutGrid-5 {
+    margin-left: 11px;
+}
+
+.photoshop-color {
+    border-top: 4px solid #358D7C;
+}
+
+.Column {
+    _height: 1em;
+    width: 689px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Column::after {
+    clear: left;
+    content: "\0020";
+    display: block;
+    height: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.SiteFooterLinkList a, .SiteFooterLinkList a:link, .SiteFooterLinkList a:visited {
+    color: #CCC;
+}
+
+.SiteFooter h4 {
+    font-weight: bold;
+    margin-bottom:8px;
+}
+
+.LinkInvert a:hover, .LinkInvert a:visited:hover, a.LinkInvert:hover, a.LinkInvert:visited:hover {
+    text-decoration: underline;
+}
+
+.LinkInvert a {
+    color: #62BB46;
+}
+
+.TextInvert {
+    color: white;
+}
+
+.SiteFooterLinkList {
+    margin-bottom: 16px;
+}
+
+.SiteFooter li {
+    line-height: 14px;
+    margin-bottom: 4px;
+}
+
+.SiteFooterLinkListBottom {
+    margin-bottom: 0;
+}
+
+.LayoutRow, .LayoutRowBottom {
+    margin-bottom: 9px;
+}
+
+.LayoutRow, .LayoutRowTop {
+    margin-top: 9px;
+}
+
+.LayoutRowSmallest, .LayoutRow, .LayoutSmallRow, .LayoutSmallerRow {
+    display: block;
+}
+
+.LayoutGrid {
+    _height: 1em;
+    width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article {
+    display:relative;
+    margin:12px 0;
+}
+
+.entry-content {
+ padding-top:10px;
+}
+
+.entry-meta {
+ padding: 10px;
+ float:right;
 }

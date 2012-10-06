@@ -102,18 +102,19 @@
 
 </head>
 
-<body <?php body_class(); ?>>
+<body class="Text TextMedium Link">
 
-<div class="SiteHeader Text TextSmall">
+<div class="SiteHeader Text TextSmall LayoutBreakAfter">
 
     <div id="SiteLogo">
-        <a href="/" style="border:none;"><img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top_logo.png"></a>
+        <!-- <a href="/" style="border:none;"><img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top_logo.png"></a> -->
+        <a href="/" style="border:none;"><img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top-bar_for_page.png"></a>
     </div>
 
     <div class="SiteHeaderBar" id="shBar">
         <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="introduction_panel">
             <a href="/introduction/" id="introduction_link" class="SiteHeaderBarLink" style="">Introduction</a>
-            <div class="SiteHeaderDropPanel" id="introduction_panel" style="display: none;">
+            <div class="SiteHeaderDropPanel" id="IntroductionPanel" style="display: none;">
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="intro1">
                     <span class="SiteHeaderPanelHeader"><a href="/introduction/what-is-crossfit/">What is CrossFit?</a></span>
                 </div>
@@ -176,7 +177,7 @@
 
         <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="about_us_panel">
             <a href="/about-us/" class="SiteHeaderBarLink" id="about_usLink" style="">About Us</a>
-            <div class="SiteHeaderDropPanel" id="About_us_Panel" style="display: none;">
+            <div class="SiteHeaderDropPanel" id="AboutUsPanel" style="display: none;">
 
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="about_us1">
                     <span class="SiteHeaderPanelHeader"><a href="/about-us/staff/">Staff</a></span>
@@ -198,9 +199,8 @@
         </div>
 
     </div><!-- site header bar -->
-</div>
-<div style="clear:both;"></div>
 
-<div class="LayoutP LayoutCenter ArticleGrid">
+</div><!-- SiteHeader -->
+
     
 
