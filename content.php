@@ -8,7 +8,7 @@
  */
 ?>
 
-	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> style="background-color:#ccc; padding:10px">
+	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<header class="entry-header">
 			<?php if ( is_sticky() ) : ?>
 				<hgroup>
@@ -70,7 +70,7 @@
                 <span class="comments-link"><?php comments_popup_link( '<span class="leave-reply">' . __( 'Post weights and time to comments.', 'twentyeleven' ) . '</span>', __( '<b>1</b> Reply', 'twentyeleven' ), __( '<b>%</b> Replies', 'twentyeleven' ) ); ?></span>
                 <?php endif; // End if comments_open() ?>
 
-                | <?php edit_post_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
+                <?php edit_post_link( __( '| Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
             </div><!-- #entry-meta -->
         </div><!-- layout break after -->
 	</article><!-- #post-<?php the_ID(); ?> -->
