@@ -10,9 +10,6 @@
  */
 ?>
 
-  </div><!-- LayoutBreakAfter -->
-</div><!-- LayoutRowLink -->
-
     <div id="SiteFooter" class="SiteFooter Text TextSmall TextInvert Link LayoutBreak">
         <div class="LayoutBreakAfter">
             <div class="LayoutGrid-1 LayoutSlimGrid-2 LinkInvert">
@@ -99,6 +96,9 @@
 	</footer><!-- #colophon -->
 
 <?php wp_footer(); ?>
+
+
+</div><!-- class="LayoutP LayoutCenter ArticleGrid" -->
 
 </body>
 </html>

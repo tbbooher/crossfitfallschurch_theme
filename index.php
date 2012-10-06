@@ -16,31 +16,30 @@
 <div class="LayoutP LayoutCenter ArticleGrid">
     <div class="LayoutRow Link">
         <div class="LayoutBreakAfter">
-            <div class="ArticleGrid-1-4">
-                <div id="slider" class="nivoSlider">
-                    <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic1.jpg" alt="" >
-                    <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic7.jpg" alt="" >
-                    <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic4.jpg" alt="" >
-                    <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic5.jpg" alt="" >
-                    <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic6.jpg" alt="" >
+            <div class="ArticleGrid-1-4" style="margin-left:auto; margin-right: auto; width: 750px; background-color: red; float: none;">
+                <div>
+                    <div id="slider" class="nivoSlider">
+                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic1.jpg" alt="" >
+                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic7.jpg" alt="" >
+                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic4.jpg" alt="" >
+                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic5.jpg" alt="" >
+                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic6.jpg" alt="" >
+                    </div>
                 </div>
                 <div id="htmlcaption" class="nivo-html-caption">
                     <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
                 </div>
+                <script type="text/javascript">
+                    jQuery(window).load(function() {
+                        jQuery('#slider').nivoSlider({effect: 'fade', randomStart: true});
+                    });
+                </script>
             </div>
         </div>
     </div>
     <div class="LayoutRow Link">
         <div class="LayoutBreakAfter">
-            <div class="ArticleGrid-1-3">
-
-                <br style="clear:both;">
-
-                <script type="text/javascript">
-                  jQuery(window).load(function() {
-                    jQuery('#slider').nivoSlider({effect: 'fade', randomStart: true});
-                  });
-                </script>
+            <div class="ArticleGrid-1-3" id="main">
 
                 <?php if ( have_posts() ) : ?>
 
@@ -68,5 +67,25 @@
 
                 <?php endif; ?>
             </div><!-- ArticleGrid -->
+            <div class="ArticleGrid-4">
+                <div id="infobar">
+                    <h2>Why CFFC?</h2>
+                    <p>
+                    Phasellus porttitor imperdiet ipsum et adipiscing. Vivamus vel diam diam. Nam non tellus mauris. Nullam commodo luctus suscipit. Praesent id elit a nisi rhoncus pellentesque. Proin rhoncus dapibus tortor, ut blandit lorem ornare nec. Curabitur laoreet tellus tristique tortor gravida id bibendum odio pharetra. Nullam libero quam, molestie hendrerit vehicula eget, semper ut tortor. Duis ut dolor neque. Donec auctor ipsum quis felis scelerisque nec mattis orci scelerisque.
+                    </p>
+                    <h2>News</h2>
+                    <p>
+                        Integer auctor porta dolor in molestie. Praesent semper sapien nisi, at viverra ipsum.
+                    </p>
+                    <h2>Community</h2>
+                    <ul>
+                        <li>Flickr Badge</li>
+                        <li>YouTube</li>
+                        <li>Facebook Stuff</li>
+                    </ul>
+                </div>
+            </div><!-- ArticleGrid -->
+        </div><!-- LayoutBreakAfter -->
+    </div><!-- LayoutRowLink -->
 
 <?php get_footer(); ?>
