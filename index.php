@@ -16,14 +16,11 @@
 <div class="LayoutP LayoutCenter ArticleGrid">
     <div class="LayoutRow Link">
         <div class="LayoutBreakAfter">
-            <div class="ArticleGrid-1-4" style="margin-left:auto; margin-right: auto; width: 750px; background-color: red; float: none;">
+            <div class="ArticleGrid-1-4" style="margin-left:auto; margin-right: auto; width: 750px; float: none;">
                 <div>
                     <div id="slider" class="nivoSlider">
-                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic1.jpg" alt="" >
-                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic7.jpg" alt="" >
-                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic4.jpg" alt="" >
-                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic5.jpg" alt="" >
-                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/banner/pic6.jpg" alt="" >
+                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/front_page_image1.jpg" alt="" >
+                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/front_page_image2.jpg" alt="" >
                     </div>
                 </div>
                 <div id="htmlcaption" class="nivo-html-caption">
