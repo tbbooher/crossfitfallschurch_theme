@@ -10,6 +10,8 @@
  */
 ?>
 
+  </div><!-- LayoutBreakAfter -->
+</div><!-- LayoutRowLink -->
 
     <div id="SiteFooter" class="SiteFooter Text TextSmall TextInvert Link LayoutBreak">
         <div class="LayoutBreakAfter">

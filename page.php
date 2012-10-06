@@ -14,17 +14,16 @@
 
 get_header(); ?>
 
-    <div id="primary">
-        <div id="main">
+<div class="LayoutGrid LayoutCenter ArticleGrid LayoutWideGrid LayoutP">
+    <div class="LayoutRow Link">
+        <div class="LayoutBreakAfter">
 
-				<?php while ( have_posts() ) : the_post(); ?>
+            <?php while ( have_posts() ) : the_post(); ?>
 
-					<?php get_template_part( 'content', 'page' ); ?>
+                <?php get_template_part( 'content', 'page' ); ?>
 
-					<?php comments_template( '', true ); ?>
+                <?php comments_template( '', true ); ?>
 
-				<?php endwhile; // end of the loop. ?>
-
-		</div><!-- MainAttraction -->
+            <?php endwhile; // end of the loop. ?>
 
 <?php get_footer(); ?>

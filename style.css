@@ -54,6 +54,14 @@ h1 {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.ArticleGrid::after {
+    clear: left;
+    content: "\0020";
+    display: block;
+    height: 0;
+}
+
 .Text {
     white-space: normal;
     -webkit-text-size-adjust: none;
@@ -177,14 +185,14 @@ h4 {
 .entry-header {
     display: inline-block;
     position: relative;
-    left: -22px;
+    left: -32px;
     border: 1px solid #62BB46;
     font-family: myriad-pro-1,myriad-pro-2,Helvetica,Arial,sans-serif;
     font-weight: bold;
     line-height: 125%;
     min-height: 36px;
     padding: 10px 25px 10px 30px;
-    width: 550px;
+    width: 100%;
     font-size: 14px;
     color: #333;
     background: #8EDD75;
@@ -200,7 +208,7 @@ h4 {
 .fold {
     background: url("/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/fold-green.png") no-repeat scroll 0 0 transparent;
     height: 12px;
-    left: -22px;
+    left: -32px;
     top: 0;
     position: relative;
     width: 12px;
@@ -653,4 +661,25 @@ ol, ul {
 
 .LayoutRowSmallest, .LayoutRow, .LayoutSmallRow, .LayoutSmallerRow {
     display: block;
+}
+
+.LayoutGrid {
+    _height: 1em;
+    width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article {
+    display:relative;
+    margin:12px 0;
+}
+
+.entry-content {
+ padding-top:10px;
+}
+
+.entry-meta {
+ padding: 10px;
+ float:right;
 }
