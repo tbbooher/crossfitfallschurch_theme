@@ -455,7 +455,7 @@ div.siteheaderpanellinkhover, div.siteheaderpanellinkhover a, div.siteheaderpane
 }
 
 .Link a:hover, .Link a:visited:hover, a.Link:hover, a.Link:visited:hover {
-  color: #7193B2;
+  color: #069;
 }
 
 .Link a:hover, .Link a:visited:hover, a.Link:hover, a.Link:visited:hover {
@@ -470,7 +470,7 @@ a.Link:focus, .Link a:focus {
 }
 
 .Link a:hover, .Link a:visited:hover, a.Link:hover, a.Link:visited:hover {
-  color: #7193B2;
+  color: #069;
 }
 
 div.SiteHeaderPanelLinkHover, div.SiteHeaderPanelLinkHover a, div.SiteHeaderPanelLink:hover, div.SiteHeaderPanelLink:hover a, div.SiteHeaderPanelLink a:hover {
@@ -543,7 +543,7 @@ h3 {
 }
 
 #main a, #main a:visited  {
-  color: #7193B2;
+  color: #069;
 }
 
 #Sidebar ul {
@@ -630,7 +630,7 @@ header.page-header h1 {
 .ArticleGrid-4 { margin-left: 11px }
 
 .photoshop-color {
-    border-top: 4px solid #7193B2;
+    border-top: 4px solid #069;
 }
 
 .Column {
