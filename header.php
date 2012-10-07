@@ -115,8 +115,8 @@
 <div class="SiteHeader Text TextSmall LayoutBreakAfter">
 
     <div id="SiteLogo">
-        <!-- <a href="/" style="border:none;"><img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top_logo.png"></a> -->
-        <a href="/" style="border:none;"><img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top-bar_for_page.png"></a>
+        <a href="/" style="border:none;"><img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top_logo.png"></a>
+        <!-- <a href="/" style="border:none;"><img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top-bar_for_page.png"></a> -->
     </div>
 
     <div class="SiteHeaderBar" id="shBar">
