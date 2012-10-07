@@ -256,6 +256,7 @@ a.nivo-prevNav {left:15px;}
     text-rendering: auto;
     margin: auto;
     width:960px;
+    position: relative;
 }
 
 .SiteHeader * {
@@ -386,7 +387,7 @@ h1.entry-title a {
   box-shadow: 0 4px 10px rgba(0, 0, 0, .5);
   -moz-box-shadow: 0 4px 10px -moz-rgba(0,0,0,.5);
   -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, .5);
-  z-index: 1000;
+  z-index: 100;
   top: 100%;
   left: 0;
   width: 18.333em;
@@ -396,8 +397,7 @@ h1.entry-title a {
   _margin-top: 0;
   margin-left: -1px;
   line-height: normal;
-  display: block;
-  _display: none;
+  zoom: 100%;
 }
 
 .siteheaderdropdownlink .siteheaderdroppanel, .siteheaderdropdownlink .siteheaderdroppanelhidden, .siteheaderdropdownlink:hover .siteheaderdroppanel.siteheaderdroppanelhidden, .siteheaderbaritemhover .siteheaderdroppanel.siteheaderdroppanelhidden, .siteheaderbaritemfocus .siteheaderdroppanel.siteheaderdroppanelhidden {
