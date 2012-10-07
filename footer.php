@@ -60,11 +60,12 @@
             </div>
             <div class="LayoutGrid-4 LayoutSlimGrid-1 LinkInvert">
                 <div class="LayoutCellSides LayoutCellTop">
-                   <h4>Meta</h4>
+                    <h4>Admin</h4>
                     <ul class="SiteFooterLinkList">
                         <?php wp_register(); ?>
                         <li><?php wp_loginout(); ?></li>
                         <?php wp_meta(); ?>
+                        <li><?php get_search_form(); ?></li>
                     </ul>
                 </div>
             </div>
