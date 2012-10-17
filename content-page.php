@@ -19,13 +19,16 @@
             </div>
             <div class="ArticleGrid-2-4">
                 <div class="Column mnemonic photoshop-color">
-                    <?php the_content(); ?>
-                    <?php wp_link_pages( array( 'before' => '
-                    <div class="page-link"><span>' . __( 'Pages:', 'twentyeleven' ) . '</span>', 'after' => '</div>
-                    ' ) ); ?>
+                    <div class="the_content">
+                        <?php the_content(); ?>
+                        <?php wp_link_pages( array( 'before' => '
+                        <div class="page-link"><span>' . __( 'Pages:', 'twentyeleven' ) . '</span>', 'after' => '</div>
+                        ' ) ); ?>
+                        </div>
+                    </div>
                 </div>
-            </div><!-- ArticleGridr -->
-    <!-- .entry-content -->
+            </div><!-- ArticleGrid -->
+            <!-- .entry-content -->
     <div class="entry-meta">
         <?php edit_post_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
     </div>

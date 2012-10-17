@@ -731,3 +731,11 @@ article {
 #infobar {
     padding-left: 50px;
 }
+
+.the_content {
+    padding-top:20px;
+}
+
+.the_content p {
+    padding:10px 0;
+}

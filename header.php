@@ -115,13 +115,13 @@
 <div class="SiteHeader Text TextSmall LayoutBreakAfter">
 
     <div id="SiteLogo">
-        <!-- <a href="/" style="border:none;"><img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top_logo.png"></a> -->
-        <a href="/" style="border:none;"><img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top-bar_for_page.png"></a>
+        <a href="/" style="border:none;"><img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top_logo.png"></a>
+        <!-- <a href="/" style="border:none;"><img src="/wp-content/themes/crossfit_fallschurch_theme/CFFC_Logo/top-bar_for_page.png"></a> -->
     </div>
 
     <div class="SiteHeaderBar" id="shBar">
         <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="introduction_panel">
-            <a href="/introduction/" id="introduction_link" class="SiteHeaderBarLink" style="">Introduction</a>
+            <span class="SiteHeaderBarLink">Introduction</span>
 
             <div class="SiteHeaderDropPanel" id="IntroductionPanel" style="display: none;">
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="intro1">
@@ -142,7 +142,7 @@
         <a href="/get-started/" id="get_started" class="SiteHeaderBarItem SiteHeaderBarLink">Get Started</a>
 
         <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="our_programs_panel">
-            <a href="/our-programs/" id="our_programs" class="SiteHeaderBarLink" style="">Our Programs</a>
+            <span class="SiteHeaderBarLink">Our Programs</span>
 
             <div class="SiteHeaderDropPanel" id="OurProgramsPanel" style="display: none; ">
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="programs1">
@@ -170,7 +170,7 @@
         </div>
 
         <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="schedule_and_fees_panel">
-            <a href="/schedule-and-fees/" class="SiteHeaderBarLink" id="schedule_and_fees" style="">Schedule & Fees</a>
+            <span class="SiteHeaderBarLink">Schedule & Fees</span>
 
             <div class="SiteHeaderDropPanel" id="StorePanel" style="display: none; ">
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="schedule_and_fees1">
@@ -188,7 +188,7 @@
         </div>
 
         <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="about_us_panel">
-            <a href="/about-us/" class="SiteHeaderBarLink" id="about_usLink" style="">About Us</a>
+            <span class="SiteHeaderBarLink">About Us</span>
 
             <div class="SiteHeaderDropPanel" id="AboutUsPanel" style="display: none;">
 
