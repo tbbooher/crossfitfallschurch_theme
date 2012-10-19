@@ -145,9 +145,6 @@
             <span class="SiteHeaderBarLink">Our Programs</span>
 
             <div class="SiteHeaderDropPanel" id="OurProgramsPanel" style="display: none; ">
-                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="programs1">
-                    <span class="SiteHeaderPanelHeader"><a href="/our-programs/overview/">Overview</a></span>
-                </div>
 
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="programs2">
                     <span class="SiteHeaderPanelHeader"><a href="/our-programs/group-classes/">Group Classes</a></span>
@@ -159,7 +156,7 @@
                 </div>
 
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="programs4">
-                    <span class="SiteHeaderPanelHeader"><a href="/our-programs/bar-bell-club/">Bar Bell Club</a></span>
+                    <span class="SiteHeaderPanelHeader"><a href="/our-programs/adaptation-barbell-club/">Bar Bell Club</a></span>
                 </div>
 
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="programs5">
