@@ -43,6 +43,7 @@ h1 {
     font-size: inherit;
     margin-top: 10px;
 }
+
 .LayoutCenter {
     display: block;
     margin-left: auto;
@@ -65,7 +66,7 @@ h1 {
 .Text {
     white-space: normal;
     -webkit-text-size-adjust: none;
-    font-family: "myriad-pro-1","myriad-pro-2","Helvetica","Arial",sans-serif;
+    font-family: "museo-sans",sans-serif;
 }
 .TextH5, .TextSmall {
     font-size: 12px;
@@ -189,7 +190,7 @@ h4 {
     position: relative;
     left: -32px;
     border: 1px solid #62BB46;
-    font-family: myriad-pro-1,myriad-pro-2,Helvetica,Arial,sans-serif;
+    font-family: "museo-sans",sans-serif;
     font-weight: bold;
     line-height: 125%;
     min-height: 36px;
@@ -499,7 +500,7 @@ div.SiteHeaderPanelRow a, .SiteHeaderPanelHeader a {
 }
 
 .Text {
-  font-family: "myriad-pro-1","myriad-pro-2","Helvetica","Arial",sans-serif;
+  font-family: "museo-sans",sans-serif;
 }
 
 div.SiteHeaderPanelLink a, div.SiteHeaderPanelLink a:link, div.SiteHeaderPanelLink a:visited, div.SiteHeaderPanelLink a:active, div.SiteHeaderPanelLink a:visited {
@@ -535,6 +536,7 @@ h3 {
     margin-top:18px;
     display: block;
     font-size: 1em;
+    color: #2B7A17;
     -webkit-margin-before: 0.83em;
     -webkit-margin-after: 0.83em;
     -webkit-margin-start: 0px;
@@ -630,7 +632,7 @@ header.page-header h1 {
 .ArticleGrid-4 { margin-left: 11px }
 
 .photoshop-color {
-    border-top: 4px solid #069;
+    border-top: 4px solid #69C6B6;
 }
 
 .Column {
@@ -738,4 +740,24 @@ article {
 
 .the_content p {
     padding:10px 0;
+}
+
+/* front page customizations */
+
+ul li:before{ content:"-"; position:relative; left:-5px;}
+ul li{ text-indent:-5px; }
+
+ul {
+    list-style-position: outside;
+    padding-left: 10px;
+}
+
+ul li {
+    padding:5px 0;
+}
+
+#searchform.input {
+    /* TODO -- MAKE THIS WORK */
+    width:150px;
+    height:30px;
 }

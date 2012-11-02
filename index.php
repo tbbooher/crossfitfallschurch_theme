@@ -66,19 +66,25 @@
             </div><!-- ArticleGrid -->
             <div class="ArticleGrid-4">
                 <div id="infobar">
-                    <h2>Why CFFC?</h2>
-                    <p>
-                    Phasellus porttitor imperdiet ipsum et adipiscing. Vivamus vel diam diam. Nam non tellus mauris. Nullam commodo luctus suscipit. Praesent id elit a nisi rhoncus pellentesque. Proin rhoncus dapibus tortor, ut blandit lorem ornare nec. Curabitur laoreet tellus tristique tortor gravida id bibendum odio pharetra. Nullam libero quam, molestie hendrerit vehicula eget, semper ut tortor. Duis ut dolor neque. Donec auctor ipsum quis felis scelerisque nec mattis orci scelerisque.
-                    </p>
+                    <h2 style="font-size:2em;">Why CFFC?</h2>
+                    <ul>
+                       <li>Supportive community</li>
+                       <li>Professional and caring coaches</li>
+                       <li>Commitment to your success</li>
+                    </ul>
                     <h2>News</h2>
                     <p>
-                        Integer auctor porta dolor in molestie. Praesent semper sapien nisi, at viverra ipsum.
+                        Be on the lookout for details about our grand opening.
                     </p>
                     <h2>Community</h2>
                     <ul>
                         <li>Flickr Badge</li>
                         <li>YouTube</li>
                         <li>Facebook Stuff</li>
+                    </ul>
+                    <hr>
+                    <ul class="SiteFooterLinkList">
+                      <li style="list-style-type: none;"><?php get_search_form(); ?></li>
                     </ul>
                 </div>
             </div><!-- ArticleGrid -->
