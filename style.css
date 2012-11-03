@@ -476,7 +476,7 @@ a.Link:focus, .Link a:focus {
 
 div.SiteHeaderPanelLinkHover, div.SiteHeaderPanelLinkHover a, div.SiteHeaderPanelLink:hover, div.SiteHeaderPanelLink:hover a, div.SiteHeaderPanelLink a:hover {
   background-color: #069;
-  color: white!important;
+  color: white;
 }
 
 div.SiteHeaderPanelRow a, .SiteHeaderPanelHeader a {
