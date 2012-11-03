@@ -592,3 +592,42 @@ function twentyeleven_body_classes( $classes ) {
 }
 add_filter( 'body_class', 'twentyeleven_body_classes' );
 
+add_filter( 'comment_form_defaults', 'my_comment_defaults');
+
+function my_comment_defaults($defaults) {
+    $req = get_option( 'require_name_email' );
+    $aria_req = ( $req ? " aria-required='true'" : '' );
+
+    $defaults = array(
+    'fields'        	   => array(
+    'author' => '<div><label for="author" style="display:none;">' . __( 'Name' ) . ( $req ? '<span class="required">*</span>' : '' ) . '</label> ' . '<input id="author" name="author" placeholder="your name" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></div>',
+    'email' => '<div><label for="email" style="display:none;">' . __( 'Email' )  . ( $req ? '<span class="required">*</span>' : '' ) . '</label> ' . '<input id="email" name="email" placeholder="email" type="email" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' /></div>',
+    'url'    => '<div><label for="url" style="display:none;">' . __( 'Website' )  . ( $req ? '<span class="required">*</span>' : '' ) . '</label> ' . '<input id="url" name="url" placeholder="website" type="text" value="' . esc_attr(  $commenter['comment_author_url'] ) . '" size="30"' . $aria_req . ' /></div>'
+    ),
+    'comment_field' => '<div><label for="comment" style="display:none;">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"  placeholder="your comment"></textarea></div>',
+
+    'must_log_in'          => '<p class="must-log-in">' .  sprintf( __( 'You must be <a href="%s">logged in</a> to post a comment.' ), wp_login_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) ) . '</p>',
+
+    'logged_in_as'         => '<p class="logged-in-as">' . sprintf( __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>' ), admin_url( 'profile.php' ), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) ) . '</p>',
+
+    'comment_notes_before' => '<fieldset>',
+
+    'comment_notes_after'  => '</fieldset>',
+
+    'id_form'              => 'commentform',
+
+    'id_submit'            => 'submit',
+
+    'title_reply'          => __( 'Leave a Comment' ),
+
+    'title_reply_to'       => __( 'Leave a Reply %s' ),
+
+    'cancel_reply_link'    => __( 'Cancel reply' ),
+
+    'label_submit'         => __( 'Comment' ),
+
+    );
+
+    return $defaults;
+}
+
