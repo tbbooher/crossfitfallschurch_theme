@@ -67,7 +67,7 @@
             <div class="ArticleGrid-4">
                 <div id="infobar">
                     <h2 style="font-size:2em;">Why CFFC?</h2>
-                    <ul>
+                    <ul class="dash-list">
                        <li>Supportive community</li>
                        <li>Professional and caring coaches</li>
                        <li>Commitment to your success</li>
@@ -77,10 +77,10 @@
                         Be on the lookout for details about our grand opening.
                     </p>
                     <h2>Community</h2>
-                    <ul>
-                        <li>Flickr Badge</li>
-                        <li>YouTube</li>
-                        <li>Facebook Stuff</li>
+                    <ul class="horizontal">
+                        <li><a href="http://www.facebook.com/CrossFitFallsChurch"><img src="/wp-content/themes/crossfit_fallschurch_theme/images/facebook.png" width="64px" height="64px" alt="Facebook"></a></li>
+                        <li><img src="/wp-content/themes/crossfit_fallschurch_theme/images/flickr.png" width="64px" height="64px" alt="Facebook"></li>
+                        <li><img src="/wp-content/themes/crossfit_fallschurch_theme/images/youtube.png" width="64px" height="64px" alt="Facebook"></li>
                     </ul>
                     <hr>
                     <ul class="SiteFooterLinkList">

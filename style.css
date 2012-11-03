@@ -764,15 +764,15 @@ article {
 
 /* front page customizations */
 
-#infobar ul li:before, ul.bulletlist li:before  { content:"-"; position:relative; left:-5px;}
-#infobar ul li { text-indent:-5px; }
+ul.dash-list li:before, ul.bulletlist li:before  { content:"-"; position:relative; left:-5px;}
+ul.dash-list li { text-indent:-5px; }
 
-#infobar ul, ul.bulletlist {
+ul.dash-list, ul.bulletlist {
     list-style-position: outside;
     padding-left: 10px;
 }
 
-#infobar ul li, ul.bulletlist li {
+ul.dash-list li, ul.bulletlist li {
     padding:5px 0;
 }
 
@@ -983,4 +983,34 @@ a.comment-reply-link:hover, a.comment-reply-link:focus, a.comment-reply-link:act
 .commentlist .children li.comment .comment-meta {
     line-height: 1.625em;
     margin-left: 50px;
+}
+
+ul.horizontal {
+    list-style-type: none;
+    padding-right: 10px;
+    width: 100%;
+}
+
+ul.horizontal li {
+/*    background-color: #e0ffff; */
+    display: inline;
+    padding: 0 14px;
+    text-align: center;
+}
+
+ul.horizontal li:hover {
+    border-bottom: 1px solid gray;
+    cursor: hand;
+}
+
+/* search */
+
+input#s {
+    background: url(images/search.png) no-repeat 5px 6px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 14px;
+    height: 22px;
+    line-height: 1.2em;
+    padding: 4px 10px 4px 28px;
 }
