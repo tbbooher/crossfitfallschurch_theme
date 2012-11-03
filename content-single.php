@@ -31,9 +31,9 @@
                 <div class="LayoutBreakAfter TextH5">
                     <div style="float:left; width: 430px;">
                         <?php if ( 'post' == get_post_type() ) : ?>
-                        <div class="layoutbreakafter">
-                            <?php twentyeleven_posted_on(); ?>
-                        </div>
+                            <div class="LayoutBreakAfter">
+                                <?php twentyeleven_posted_on(); ?>
+                            </div>
                         <?php endif; ?>
                     </div>
                     <div style="float:right; width: 430px; text-align: right;">
