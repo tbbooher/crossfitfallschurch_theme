@@ -788,7 +788,7 @@ article {
     text-shadow: 0 1px 0 white;
 }
 
-.breadcrumb li a:hover {
+.breadcrumb li a:hover, .breadcrumb li a:visited:hover {
     color: #069;
 }
 
