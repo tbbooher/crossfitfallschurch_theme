@@ -35,7 +35,7 @@
                         <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/our-programs/overview/">Overview</a></li>
                         <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/our-programs/group-classes/">Group Classes</a></li>
                         <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/our-programs/private-classes/">Private Classes</a></li>
-                        <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/our-programs/bar-bell-club/">Adaptation Barbell Club</a></li>
+                        <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="http://www.crossfitadaptation.com/barbell_and_oly_lifting/">Adaptation Barbell Club</a></li>
                         <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/our-programs/yoga-for-athletes/">Yoga for Athletes</a></li>
                     </ul>
                     </div>

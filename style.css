@@ -442,7 +442,7 @@ div.siteheaderpanellink a, div.siteheaderpanellink a:link, div.siteheaderpanelli
   color: #333;
 }
 
-div.siteheaderpanellinkhover, div.siteheaderpanellinkhover a, div.siteheaderpanellink a:hover, div.siteheaderpanellink a:focus {
+div.siteheaderpanellink a:hover, div.siteheaderpanellink a:focus {
   background-color: #069;
   color: white!important;
   text-decoration: none;
@@ -453,10 +453,6 @@ div.siteheaderpanellinkhover, div.siteheaderpanellinkhover a, div.siteheaderpane
 .Link a, .Link a:link, .Link a:visited, a.Link, a.Link:link, a.Link:visited {
     text-decoration: none;
     cursor: pointer
-}
-
-.Link a:hover, .Link a:visited:hover, a.Link:hover, a.Link:visited:hover {
-  color: #069;
 }
 
 .Link a:hover, .Link a:visited:hover, a.Link:hover, a.Link:visited:hover {
