@@ -444,7 +444,7 @@ div.siteheaderpanellink a, div.siteheaderpanellink a:link, div.siteheaderpanelli
 
 div.siteheaderpanellink a:hover, div.siteheaderpanellink a:focus {
   background-color: #069;
-  color: white !important;
+  color: white;
   text-decoration: none;
 }
 
