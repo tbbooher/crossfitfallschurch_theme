@@ -789,7 +789,7 @@ article {
 }
 
 .breadcrumb li a:hover, .breadcrumb li a:visited:hover {
-    color: #069;
+    color: #069 !important;
 }
 
 
