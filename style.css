@@ -444,7 +444,7 @@ div.siteheaderpanellink a, div.siteheaderpanellink a:link, div.siteheaderpanelli
 
 div.siteheaderpanellink a:hover, div.siteheaderpanellink a:focus {
   background-color: #069;
-  color: white!important;
+  color: white !important;
   text-decoration: none;
 }
 
@@ -544,7 +544,7 @@ h3 {
     font-weight: bold;
 }
 
-#main a, #main a:visited  {
+#main a, #main a:visited, #main a:visited:hover  {
   color: #069;
 }
 
