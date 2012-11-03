@@ -16,27 +16,27 @@
                 <div class="LayoutCellSides LayoutCellTop">
                     <h4>Introduction</h4>
                     <ul class="SiteFooterLinkList">
-                      <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/introduction/what-is-crossfit/">What is CrossFit?</a></li>
-                      <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/introduction/introduction/">Introduction</a></li>
-                      <!-- <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/introduction/testimonials/">Testimonials</a></li> -->
-                      <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/introduction/faq/">FAQ</a></li>
+                      <li><a href="/introduction/what-is-crossfit/">What is CrossFit?</a></li>
+                      <li><a href="/introduction/introduction/">Introduction</a></li>
+                      <!-- <li><a href="/introduction/testimonials/">Testimonials</a></li> -->
+                      <li><a href="/introduction/faq/">FAQ</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="LayoutGrid-2 LayoutSlimGrid-1 LinkInvert">
+            <div class="LayoutGrid-2 LinkInvert">
                 <div class="LayoutCellSides LayoutCellTop">
                     <h4><a href="/get-started/">Get Started</a></h4>
                 </div>
             </div>
-            <div class="LayoutGrid-2 LayoutSlimGrid-1 LinkInvert">
+            <div class="LayoutGrid-2 LinkInvert">
                 <div class="LayoutCellSides LayoutCellTop">
                     <h4>Our Programs</h4>
                     <ul class="SiteFooterLinkList">
-                        <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/our-programs/overview/">Overview</a></li>
-                        <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/our-programs/group-classes/">Group Classes</a></li>
-                        <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/our-programs/private-classes/">Private Classes</a></li>
-                        <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="http://www.crossfitadaptation.com/barbell_and_oly_lifting/">Adaptation Barbell Club</a></li>
-                        <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/our-programs/yoga-for-athletes/">Yoga for Athletes</a></li>
+                        <li><a href="/our-programs/overview/">Overview</a></li>
+                        <li><a href="/our-programs/group-classes/">Group Classes</a></li>
+                        <li><a href="/our-programs/private-classes/">Private Classes</a></li>
+                        <li><a href="http://www.crossfitadaptation.com/barbell_and_oly_lifting/">Adaptation Barbell Club</a></li>
+                        <li><a href="/our-programs/yoga-for-athletes/">Yoga for Athletes</a></li>
                     </ul>
                     </div>
                 </div>
@@ -45,20 +45,20 @@
                 <div class="LayoutCellSides LayoutCellTop">
                     <h4>Schedule and Fees</h4>
                     <ul class="SiteFooterLinkList">
-                      <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/schedule-and-fees/schedule/">Schedule</a></li>
-                      <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/schedule-and-fees/prices/">Prices</a></li>
-                      <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/schedule-and-fees/dropping-in/">Drop Ins</a></li>
+                      <li><a href="/schedule-and-fees/schedule/">Schedule</a></li>
+                      <li><a href="/schedule-and-fees/prices/">Prices</a></li>
+                      <li><a href="/schedule-and-fees/dropping-in/">Drop Ins</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="LayoutGrid-4 LayoutSlimGrid-1 LinkInvert">
+            <div class="LayoutGrid-4 LinkInvert">
                 <div class="LayoutCellSides LayoutCellTop">
                     <h4>About Us</h4>
                     <ul class="SiteFooterLinkList">
-                      <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/about-us/staff/">Staff</a></li>
-                      <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/about-us/community/">Community</a></li>
-                      <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/about-us/location/">Location</a></li>
-                      <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="/about-us/contact/">Contact</a></li>
+                      <li><a href="/about-us/staff/">Staff</a></li>
+                      <li><a href="/about-us/community/">Community</a></li>
+                      <li><a href="/about-us/location/">Location</a></li>
+                      <li><a href="/about-us/contact/">Contact</a></li>
                     </ul>
                 </div>
             </div>

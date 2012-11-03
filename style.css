@@ -470,6 +470,10 @@ a.Link:focus, .Link a:focus {
   color: #069;
 }
 
+.LinkInvert a:hover, .Link a:visited:hover, a.Link:hover, a.Link:visited:hover {
+    color: #ffffff !important;
+}
+
 div.SiteHeaderPanelLinkHover, div.SiteHeaderPanelLinkHover a, div.SiteHeaderPanelLink:hover, div.SiteHeaderPanelLink:hover a, div.SiteHeaderPanelLink a:hover {
   background-color: #069;
   color: white!important;
@@ -649,9 +653,11 @@ ol, ul {
     list-style: none;
 }
 
+
 .SiteFooterLinkList a, .SiteFooterLinkList a:link, .SiteFooterLinkList a:visited {
     color: #CCC;
 }
+
 
 .SiteFooter h4 {
     font-weight: bold;
