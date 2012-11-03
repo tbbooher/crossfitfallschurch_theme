@@ -156,7 +156,7 @@
                 </div>
 
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="programs4">
-                    <span class="SiteHeaderPanelHeader"><a href="/our-programs/adaptation-barbell-club/">Bar Bell Club</a></span>
+                    <span class="SiteHeaderPanelHeader"><a href="/our-programs/adaptation-barbell-club/">Adaptation Barbell Club</a></span>
                 </div>
 
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="programs5">

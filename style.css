@@ -536,7 +536,7 @@ h3 {
     margin-top:18px;
     display: block;
     font-size: 1em;
-    color: #2B7A17;
+/*     color: #2B7A17; */
     -webkit-margin-before: 0.83em;
     -webkit-margin-after: 0.83em;
     -webkit-margin-start: 0px;
@@ -744,15 +744,15 @@ article {
 
 /* front page customizations */
 
-ul li:before{ content:"-"; position:relative; left:-5px;}
-ul li{ text-indent:-5px; }
+#infobar ul li:before, ul.bulletlist li:before  { content:"-"; position:relative; left:-5px;}
+#infobar ul li { text-indent:-5px; }
 
-ul {
+#infobar ul, ul.bulletlist {
     list-style-position: outside;
     padding-left: 10px;
 }
 
-ul li {
+#infobar ul li, ul.bulletlist li {
     padding:5px 0;
 }
 
