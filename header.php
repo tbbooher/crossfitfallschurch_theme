@@ -57,9 +57,9 @@
         ?>
     </title>
 
-    <link rel="profile" href="http://gmpg.org/xfn/11"/>
+    <link rel="profile" href="http://gmpg.org/xfn/11">
 
-    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>"/>
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>">
 
     <!-- don't know why i need this -->
 

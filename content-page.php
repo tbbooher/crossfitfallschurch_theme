@@ -13,8 +13,9 @@
             <header class="page-header">
                 <h1 class="entry-title"><?php the_title(); ?></h1>
             </header>
+
             <!-- .entry-header -->
-            <div class="ArticleGrid-1 LayoutWideGrid-1 TextSmall PrintLayoutHide">
+            <div class="ArticleGrid-1 TextSmall ">
                 &nbsp;
             </div>
             <div class="ArticleGrid-2-4">

@@ -9,13 +9,13 @@
 
 get_header(); ?>
 
-<div class="LayoutGrid LayoutCenter ArticleGrid LayoutWideGrid LayoutP">
+<div class="LayoutGrid LayoutCenter ArticleGrid LayoutP">
     <div class="LayoutRow">
         <div class="LayoutBreakAfter">
                 <header class="page-header">
                     <h1 class="entry-title"><?php _e( 'This is somewhat embarrassing, isn&rsquo;t it?', 'twentyeleven' ); ?></h1>
                 </header>
-                <div class="ArticleGrid-1 LayoutWideGrid-1 TextSmall PrintLayoutHide">
+                <div class="ArticleGrid-1 TextSmall">
                   &nbsp;
                 </div>
                 <div class="ArticleGrid-2-4" id="main">
