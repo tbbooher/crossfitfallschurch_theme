@@ -767,3 +767,26 @@ article {
 #SiteFooter h4 {
     color: #62BB46;
 }
+
+/* navbar */
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin: 0 0 20px;
+    list-style: none;
+    background-color: whiteSmoke;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    list-style: none;
+}
+
+.breadcrumb .active {
+  color: #999;
+}
+
+.breadcrumb li {
+  line-height: 20px;
+}
+
+
