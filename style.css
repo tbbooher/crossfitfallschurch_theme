@@ -785,6 +785,8 @@ article {
   color: #999;
 }
 
+
+
 .breadcrumb li {
     line-height: 20px;
     display: inline-block;
@@ -792,3 +794,7 @@ article {
 }
 
 
+.breadcrumb .divider {
+    padding: 0 5px;
+    color: #CCC;
+}
