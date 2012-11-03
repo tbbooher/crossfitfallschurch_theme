@@ -781,16 +781,15 @@ article {
     list-style: none;
 }
 
-.breadcrumb .active {
-  color: #999;
-}
-
-
 
 .breadcrumb li {
     line-height: 20px;
     display: inline-block;
     text-shadow: 0 1px 0 white;
+}
+
+.breadcrumb li a:hover {
+    color: #069;
 }
 
 
