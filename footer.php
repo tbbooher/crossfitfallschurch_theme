@@ -10,7 +10,7 @@
  */
 ?>
 
-    <div id="SiteFooter" class="SiteFooter Text TextSmall TextInvert Link LayoutBreak">
+    <div id="SiteFooter" class="SiteFooter Text TextSmall TextInvert LayoutBreak">
         <div class="LayoutBreakAfter">
             <div class="LayoutGrid-1 LayoutSlimGrid-2 LinkInvert">
                 <div class="LayoutCellSides LayoutCellTop">

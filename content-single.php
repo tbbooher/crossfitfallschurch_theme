@@ -11,20 +11,22 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<h1 class="entry-title"><?php the_title(); ?></h1>
-
-		<?php if ( 'post' == get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php twentyeleven_posted_on(); ?>
-		</div><!-- .entry-meta -->
-		<?php endif; ?>
 	</header><!-- .entry-header -->
+    <div class="fold"></div>
 
-	<div class="entry-content">
+    <?php if ( 'post' == get_post_type() ) : ?>
+        <div class="layoutbreakafter">
+            <?php twentyeleven_posted_on(); ?>
+        </div>
+    <?php endif; ?>
+
+    <div class="entry-content" style="background-color: #d3d3d3;">
 		<?php the_content(); ?>
 		<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'twentyeleven' ) . '</span>', 'after' => '</div>' ) ); ?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-meta">
+    <div class="LayoutBreakAfter">
+	  <footer class="entry-meta">
 		<?php
 			/* translators: used between list items, there is a space after the comma */
 			$categories_list = get_the_category_list( __( ', ', 'twentyeleven' ) );
@@ -68,4 +70,5 @@
 		</div><!-- #entry-author-info -->
 		<?php endif; ?>
 	</footer><!-- .entry-meta -->
+    </div>
 </article><!-- #post-<?php the_ID(); ?> -->

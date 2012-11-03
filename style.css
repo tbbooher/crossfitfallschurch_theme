@@ -450,7 +450,7 @@ div.siteheaderpanellink a:hover, div.siteheaderpanellink a:focus {
 
 /* link information */
 
-.Link a, .Link a:link, .Link a:visited, a.Link, a.Link:link, a.Link:visited {
+.Link a, .Link a:link, .Link a:visited, a.Link, a.Link:link, a.Link:visited, .LinkInvert a {
     text-decoration: none;
     cursor: pointer
 }
@@ -466,12 +466,10 @@ a.Link:focus, .Link a:focus {
     box-shadow: 0 0 4px #447099
 }
 
-.Link a:hover, .Link a:visited:hover, a.Link:hover, a.Link:visited:hover {
-  color: #069;
-}
 
-.LinkInvert a:hover, .Link a:visited:hover, a.Link:hover, a.Link:visited:hover {
-    color: #ffffff !important;
+
+.Link a:visited:hover, a.Link:hover, a.Link:visited:hover {
+    color: #069;
 }
 
 div.SiteHeaderPanelLinkHover, div.SiteHeaderPanelLinkHover a, div.SiteHeaderPanelLink:hover, div.SiteHeaderPanelLink:hover a, div.SiteHeaderPanelLink a:hover {
@@ -672,6 +670,7 @@ ol, ul {
 
 .LinkInvert a:hover, .LinkInvert a:visited:hover, a.LinkInvert:hover, a.LinkInvert:visited:hover {
     text-decoration: underline;
+    color: #ffffff;
 }
 
 .LinkInvert a {

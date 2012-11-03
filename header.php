@@ -110,7 +110,7 @@
 
 </head>
 
-<body class="Text TextMedium Link">
+<body class="Text TextMedium">
 
 <div class="SiteHeader Text TextSmall LayoutBreakAfter">
 

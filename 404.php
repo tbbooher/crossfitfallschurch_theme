@@ -10,7 +10,7 @@
 get_header(); ?>
 
 <div class="LayoutGrid LayoutCenter ArticleGrid LayoutWideGrid LayoutP">
-    <div class="LayoutRow Link">
+    <div class="LayoutRow">
         <div class="LayoutBreakAfter">
                 <header class="page-header">
                     <h1 class="entry-title"><?php _e( 'This is somewhat embarrassing, isn&rsquo;t it?', 'twentyeleven' ); ?></h1>

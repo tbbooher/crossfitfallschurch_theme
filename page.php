@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-<div class="LayoutGrid LayoutCenter ArticleGrid LayoutWideGrid LayoutP">
+<div class="LayoutP LayoutCenter ArticleGrid">
     <div class="LayoutRow Link">
         <div class="LayoutBreakAfter">
 
@@ -25,5 +25,9 @@ get_header(); ?>
                 <?php comments_template( '', true ); ?>
 
             <?php endwhile; // end of the loop. ?>
+        <!-- before -->
+        </div><!-- layout break after -->
+    </div>  <!-- layout row -->
+
 
 <?php get_footer(); ?>

@@ -24,14 +24,13 @@
                         <?php wp_link_pages( array( 'before' => '
                         <div class="page-link"><span>' . __( 'Pages:', 'twentyeleven' ) . '</span>', 'after' => '</div>
                         ' ) ); ?>
-                        </div>
                     </div>
                 </div>
             </div><!-- ArticleGrid -->
             <!-- .entry-content -->
-    <div class="entry-meta">
-        <?php edit_post_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
-    </div>
+            <div class="entry-meta">
+                <?php edit_post_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
+            </div>
     <!-- .entry-meta -->
     <!-- </article><!-- #post-<?php the_ID(); ?> -->
 
