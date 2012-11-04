@@ -489,7 +489,7 @@ a.Link:focus, .Link a:focus {
 
 div.SiteHeaderPanelLinkHover, div.SiteHeaderPanelLinkHover a, div.SiteHeaderPanelLink:hover, div.SiteHeaderPanelLink:hover a, div.SiteHeaderPanelLink a:hover {
   background-color: #069;
-  color: white;
+  color: white !important;
 }
 
 div.SiteHeaderPanelRow a, .SiteHeaderPanelHeader a {
@@ -843,9 +843,8 @@ ul.dash-list li, ul.bulletlist li {
     -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
     -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.5);
     box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
-    border: none;
+    border: 1px solid #a9a9a9;
     padding: 12px;
-    color: #131313;
     font-size: 14px;
     text-shadow: 1px 1px 1px white;
 }
@@ -854,7 +853,7 @@ input[type="text"], input.text, input.title, textarea, select, input[type="email
   margin: 0.5em 0;
 }
 
-input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+input[type="text"], input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button, textarea#comment {
     font-size:100%;
     font-family: "museo-sans",sans-serif;
 }
@@ -1013,4 +1012,34 @@ input#s {
     height: 22px;
     line-height: 1.2em;
     padding: 4px 10px 4px 28px;
+}
+
+#branding #s {
+    float: right;
+    -webkit-transition-duration: 400ms;
+    -webkit-transition-property: width, background;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-duration: 400ms;
+    -moz-transition-property: width, background;
+    -moz-transition-timing-function: ease;
+    -o-transition-duration: 400ms;
+    -o-transition-property: width, background;
+    -o-transition-timing-function: ease;
+    width: 72px;
+}
+
+/* for you! */
+
+input[type="password"], input[type="search"], isindex {
+    -webkit-appearance: textfield;
+    padding: 1px;
+    background-color: white;
+    border: 2px inset;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+}
+
+input#searchsubmit {
+    display: none;
 }
