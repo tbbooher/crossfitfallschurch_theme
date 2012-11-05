@@ -80,9 +80,21 @@
                     </p>
                     <h2>Community</h2>
                     <ul class="horizontal">
-                        <li><a href="http://www.facebook.com/CrossFitFallsChurch"><img src="/wp-content/themes/crossfit_fallschurch_theme/images/facebook.png" width="64px" height="64px" alt="Facebook"></a></li>
-                        <li><img src="/wp-content/themes/crossfit_fallschurch_theme/images/flickr.png" width="64px" height="64px" alt="Facebook"></li>
-                        <li><img src="/wp-content/themes/crossfit_fallschurch_theme/images/youtube.png" width="64px" height="64px" alt="Facebook"></li>
+                        <li>
+                            <a href="http://www.facebook.com/CrossFitFallsChurch">
+                              <img src="/wp-content/themes/crossfit_fallschurch_theme/images/facebook.png" width="64px" height="64px" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.flickr.com/photos/crossfitfallschurch/">
+                              <img src="/wp-content/themes/crossfit_fallschurch_theme/images/flickr.png" width="64px" height="64px" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.youtube.com/user/CFAVideoChannel">
+                              <img src="/wp-content/themes/crossfit_fallschurch_theme/images/youtube.png" width="64px" height="64px" alt="Facebook">
+                            </a>
+                        </li>
                     </ul>
                     <hr>
                     <ul class="SiteFooterLinkList">
