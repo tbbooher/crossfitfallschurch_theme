@@ -19,10 +19,18 @@
             <div class="ArticleGrid-1-4" style="margin-left:auto; margin-right: auto; width: 100%; float: none;">
                 <div>
                     <div id="slider" class="nivoSlider">
-                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/community2.jpg" alt="" >
-                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/free-workout2.jpg" alt="" >
-                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/results2.jpg" alt="" >
-                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/train2.jpg" alt="" >
+                        <a href="/get-started/">
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/community2.jpg" alt="" >
+                        </a>
+                        <a href="/get-started/">
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/free-workout2.jpg" alt="" >
+                        </a>
+                        <a href="/get-started/">
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/results2.jpg" alt="" >
+                        </a>
+                        <a href="/get-started/">
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/train2.jpg" alt="" >
+                        </a>
                     </div>
                 </div>
                 <div id="htmlcaption" class="nivo-html-caption">
