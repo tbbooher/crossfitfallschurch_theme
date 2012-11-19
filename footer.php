@@ -17,8 +17,7 @@
                     <h4>Introduction</h4>
                     <ul class="SiteFooterLinkList">
                       <li><a href="/introduction/what-is-crossfit/">What is CrossFit?</a></li>
-                      <li><a href="/introduction/introduction/">Introduction</a></li>
-                      <!-- <li><a href="/introduction/testimonials/">Testimonials</a></li> -->
+                      <li><a href="/introduction/testimonials/">Testimonials</a></li>
                       <li><a href="/introduction/faq/">FAQ</a></li>
                     </ul>
                 </div>
@@ -32,7 +31,6 @@
                 <div class="LayoutCellSides LayoutCellTop">
                     <h4>Our Programs</h4>
                     <ul class="SiteFooterLinkList">
-                        <li><a href="/our-programs/overview/">Overview</a></li>
                         <li><a href="/our-programs/group-classes/">Group Classes</a></li>
                         <li><a href="/our-programs/private-classes/">Private Classes</a></li>
                         <li><a href="http://www.crossfitadaptation.com/barbell_and_oly_lifting/">Adaptation Barbell Club</a></li>
