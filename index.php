@@ -38,7 +38,12 @@
                 </div>
                 <script type="text/javascript">
                     jQuery(window).load(function() {
-                        jQuery('#slider').nivoSlider({effect: 'fade', randomStart: true});
+                        jQuery('#slider').nivoSlider({
+                         effect: 'fade',
+                         randomStart: false,
+                         animSpeed: 1000,
+                         pauseOnHover: true
+                         });
                     });
                 </script>
             </div>
