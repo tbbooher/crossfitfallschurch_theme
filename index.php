@@ -41,7 +41,7 @@
                         jQuery('#slider').nivoSlider({
                          effect: 'fade',
                          randomStart: false,
-                         animSpeed: 1000,
+                         animSpeed: 4000,
                          pauseOnHover: true
                          });
                     });
