@@ -2,7 +2,7 @@
 
 done: 1. "Get Started" page - Link named "Drop Ins" that fast forwards to the bottom of the page for info on that topic does not work.
 done: 2. The link for "Adaptation Barbell Club" at the top of the website is correct. The link at the bottom of the website send you to the CFA page. Should fix link at the bottom.
-3. Add Olympic Lifting Workshop (easy)
+done: 3. Add Olympic Lifting Workshop (easy)
 4. Order of nivo-slider (deterministic) (easy)
     - be part of a community
     - train with professional staff
