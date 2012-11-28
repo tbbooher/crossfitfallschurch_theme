@@ -33,8 +33,9 @@
                     <ul class="SiteFooterLinkList">
                         <li><a href="/our-programs/group-classes/">Group Classes</a></li>
                         <li><a href="/our-programs/private-classes/">Private Classes</a></li>
-                        <li><a href="http://www.crossfitadaptation.com/barbell_and_oly_lifting/">Adaptation Barbell Club</a></li>
+                        <li><a href="/our-programs/adaptation-barbell-club/">Adaptation Barbell Club</a></li>
                         <li><a href="/our-programs/yoga-for-athletes/">Yoga for Athletes</a></li>
+                        <li><a href="/our-programs/olympic-lifting-workshop/">Olympic Lifting Workshop</a></li>
                     </ul>
                     </div>
                 </div>
