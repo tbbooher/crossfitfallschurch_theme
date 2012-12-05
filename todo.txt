@@ -1,33 +1,19 @@
 
 
+1. add link https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm
+2. Timing of nivo-slider (easy to hard -- unknown) (need to understand what is not right with current site)
+3. mobile site update (potentially very hard)
+4. getting started button (moderate)
+5. update slider graphics (easy, but time consuming)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 done: 1. "Get Started" page - Link named "Drop Ins" that fast forwards to the bottom of the page for info on that topic does not work.
 done: 2. The link for "Adaptation Barbell Club" at the top of the website is correct. The link at the bottom of the website send you to the CFA page. Should fix link at the bottom.
 done: 3. Add Olympic Lifting Workshop (easy)
-4. Order of nivo-slider (deterministic) (easy)
+done: 4. Order of nivo-slider (deterministic) (easy)
     - be part of a community
     - train with professional staff
     - get results
     - join us for a free workout
-5. Timing of nivo-slider (easy to hard -- unknown)
-6. scheduling site admin and bugfixes (hard)
-7. mobile site update (potentially very hard)
-8. getting started button (moderate)
-9. update slider graphics (easy, but time consuming)
-
------------------------
-
-Can you please add a drop-down link under "Programs" for "Olympic Lifting Workshop"?
-
-The contents on the page should read as follows:
-The Olympic Lifting Workshop is open to all CrossFit Falls Church members and non-members, and is hosted by our sister gym, CrossFit Adaptation in Arlington, VA.
-
-The Olympic Lifting Workshop meets at CrossFit Adaptation on Sundays at 1:00 PM with World Masters Champion, Rick Bucinell.  If you’re interested in improving the technique of your Olympic lifts, which are an integral part of the CrossFit program, the Olympic Lifting Workshop is for you. The two-hour session incorporates drills to improve speed, power, coordination, balance, and explosive output for both the clean and jerk and the snatch.
-
-The Olympic Lifting Workshop is absolutely free to all CrossFit Falls Church and CrossFit Adaptation members.
-
-CrossFit Adaptation is located at 4144 South Four Mile Run, Arlington, VA 22206.
-
-Please email us here if you have any questions about the Olympic Lifting Workshop with Rick Bucinell.
-
-
-
+done: 2. scheduling site admin and bugfixes (hard) {working now}
