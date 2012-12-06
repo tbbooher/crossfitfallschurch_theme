@@ -20,13 +20,13 @@
                 <div>
                     <div id="slider" class="nivoSlider">
                         <a href="/get-started/">
-                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/community2.jpg" alt="" >
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/be_part_of_a_community.jpg" alt="" >
                         </a>
                         <a href="/get-started/">
                           <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/train_with_profi_staff.jpg" alt="" >
                         </a>
                         <a href="/get-started/">
-                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/results2.jpg" alt="" >
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/get_results.jpg" alt="" >
                         </a>
                         <a href="/get-started/">
                           <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/join_us_for_a_free_workout.jpg" alt="" >
