@@ -89,7 +89,7 @@
                        <li>Professional and caring coaches</li>
                        <li>Commitment to your success</li>
                     </ul>
-                    <p style="padding-bottom:12px"><a href="https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm">Sign Up Now</a></p>
+                    <p style="padding-top:12px"><a href="https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm">Sign Up Now</a></p>
                     <h2>News</h2>
                     <p>
                         Be on the lookout for details about our grand opening.
