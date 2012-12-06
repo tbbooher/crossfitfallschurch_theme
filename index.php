@@ -23,13 +23,13 @@
                           <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/community2.jpg" alt="" >
                         </a>
                         <a href="/get-started/">
-                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/train2.jpg" alt="" >
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/train_with_profi_staff.jpg" alt="" >
                         </a>
                         <a href="/get-started/">
                           <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/results2.jpg" alt="" >
                         </a>
                         <a href="/get-started/">
-                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/free-workout2.jpg" alt="" >
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/join_us_for_a_free_workout.jpg" alt="" >
                         </a>
                     </div>
                 </div>
