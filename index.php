@@ -113,6 +113,10 @@
                         </li>
                     </ul>
                     <hr>
+                    <p>
+                      <a href="http://journal.crossfit.com/start.tpl?version=CFJ-black123x63" target="_blank" title="CrossFit Journal: The Performance-Based Lifestyle Resource"><img src="http://journal.crossfit.com/templates/images/black-125x63.png" width="125px" height="63px" alt="CrossFit Journal: The Performance-Based Lifestyle Resource" /></a>
+                    </p>
+                    <hr>
                     <ul class="SiteFooterLinkList">
                       <li style="list-style-type: none;"><?php get_search_form(); ?></li>
                     </ul>
