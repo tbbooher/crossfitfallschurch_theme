@@ -1,11 +1,7 @@
 
-
-1. update the "forward to" email address for info@crossfitfallschurch.com to linsey@crossfitfallschurch.com?  Can you also please have the "contact us" form on the website get sent directly to my "linsey@crossfitfallschurch.com" email address, too?
-2. Could you please amend the CFA schedule page to no longer reflect yoga on Thursdays?
-3. put banner on cfa site
-4. look at comments issue from linsey
-5. mobile site update
-6. Keith's new banners pics
+1. Keith's new banners pics
+2. look at comments issue from linsey
+3. mobile site update
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
@@ -22,3 +18,7 @@ done: 5. update slider graphics (easy, but time consuming)
 done: 1. add link https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm
 done: 2. Timing of nivo-slider (easy to hard -- unknown) (need to understand what is not right with current site)
 done: 4. getting started button (moderate)
+done: 1. update the "forward to" email address for info@crossfitfallschurch.com to linsey@crossfitfallschurch.com?  Can you also please have the "contact us" form on the website get sent directly to my "linsey@crossfitfallschurch.com" email address, too?
+done: 2. cfj banner
+done: 2. Could you please amend the CFA schedule page to no longer reflect yoga on Thursdays?
+done: 3. put banner on cfa site

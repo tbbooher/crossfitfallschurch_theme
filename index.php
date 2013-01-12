@@ -92,7 +92,13 @@
                     <p style="padding-top:12px"><a href="https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm">Sign Up Now</a></p>
                     <h2>News</h2>
                     <p>
-                        Be on the lookout for details about our grand opening.
+                        Our Grand Opening, sponsored by Pierson Real Estate, will be on Saturday, January 19th.
+                    </p>
+                    <p>
+                        We’ll be running workouts at 0900, 1000, and 1100.
+                    </p>
+                    <p>
+                        Food and beer to follow!
                     </p>
                     <h2>Community</h2>
                     <ul class="horizontal">
