@@ -20,6 +20,10 @@ th {
    color: black;
 }
 
+.gray {
+    background-color: #d3d3d3;
+}
+
 .LayoutP {
     position: relative;
     z-index: auto;
