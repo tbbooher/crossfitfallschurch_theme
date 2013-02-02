@@ -91,15 +91,15 @@
                     </ul>
                     <p style="padding-top:12px"><a href="https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm">Sign Up Now</a></p>
                     <h2>News</h2>
-                    <p>
-                        Our Grand Opening, sponsored by Pierson Real Estate, will be on Saturday, January 19th.
-                    </p>
-                    <p>
-                        We’ll be running workouts at 0900, 1000, and 1100.
-                    </p>
-                    <p>
-                        Food and beer to follow!
-                    </p>
+                    <h3>CFFC Yoga Grand Opening</h3>
+                    <p>- February 9th at 9 AM</p>
+                    <p>- Come for yoga, stay for bubbly and treats!</p>
+
+                    <h3>Babysitting at CFFC</h3>
+                    <p>- Babysitter on site for 11 AM workout on Mondays, Wednesday, and Fridays</p>
+                    <p>- $30 per month or $5/hour for one child and $3/hour for each additional child</p>
+
+                    <p>February Schedule <a href="http://www.crossfitfallschurch.com/schedule-and-fees/schedule/">here!</a></p>
                     <h2>Community</h2>
                     <ul class="horizontal">
                         <li>
@@ -120,7 +120,14 @@
                     </ul>
                     <hr>
                     <p>
-                      <a href="http://journal.crossfit.com/start.tpl?version=CFJ-black123x63" target="_blank" title="CrossFit Journal: The Performance-Based Lifestyle Resource"><img src="http://journal.crossfit.com/templates/images/black-125x63.png" width="125px" height="63px" alt="CrossFit Journal: The Performance-Based Lifestyle Resource" /></a>
+                      <a href="http://journal.crossfit.com/start.tpl?version=CFJ-black123x63" target="_blank" title="CrossFit Journal: The Performance-Based Lifestyle Resource">
+                        <img src="http://journal.crossfit.com/templates/images/black-125x63.png" width="125px" height="63px" alt="CrossFit Journal: The Performance-Based Lifestyle Resource" />
+                      </a>
+                    </p>
+                    <p>
+                      <a href="http://www.crossfitadaptation.com/">
+                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/sweatlogo.gif" alt="CrossFit Adaptation" width="" height="">
+                      </a>
                     </p>
                     <hr>
                     <ul class="SiteFooterLinkList">
