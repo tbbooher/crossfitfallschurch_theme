@@ -92,13 +92,13 @@
                     <p style="padding-top:12px"><a href="https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm">Sign Up Now</a></p>
                     <h2>News</h2>
                     <h3 style="padding:5px 0">CFFC Yoga Grand Opening</h3>
-                    <ul>
+                    <ul class="dash-list">
                       <li>February 9th at 9 AM</li>
                       <li>Come for yoga, stay for bubbly and treats!</li>
                     </ul>
 
                     <h3 style="padding:5px 0">Babysitting at CFFC</h3>
-                    <ul>
+                    <ul class="dash-list">
                       <li> Babysitter on site for 11 AM workout on Mondays, Wednesday, and Fridays</li>
                       <li>$30 per month or $5/hour for one child and $3/hour for each additional child</li>
                     </ul>
