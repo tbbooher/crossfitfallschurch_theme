@@ -15,6 +15,11 @@ html {
     color: black;
 }
 
+th {
+   font-weight: bolder;
+   color: black;
+}
+
 .LayoutP {
     position: relative;
     z-index: auto;
