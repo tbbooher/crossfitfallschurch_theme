@@ -103,7 +103,7 @@
                       <li>$30 per month or $5/hour for one child and $3/hour for each additional child</li>
                     </ul>
 
-                    <p style="padding:5px 0;>February Schedule <a href="http://www.crossfitfallschurch.com/schedule-and-fees/schedule/">here!</a></p>
+                    <p style="padding:5px 0;">February Schedule <a href="http://www.crossfitfallschurch.com/schedule-and-fees/schedule/">here!</a></p>
                     <h2>Community</h2>
                     <ul class="horizontal">
                         <li>
