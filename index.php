@@ -91,15 +91,19 @@
                     </ul>
                     <p style="padding-top:12px"><a href="https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm">Sign Up Now</a></p>
                     <h2>News</h2>
-                    <h3>CFFC Yoga Grand Opening</h3>
-                    <p>- February 9th at 9 AM</p>
-                    <p>- Come for yoga, stay for bubbly and treats!</p>
+                    <h3 style="padding:5px 0">CFFC Yoga Grand Opening</h3>
+                    <ul>
+                      <li>February 9th at 9 AM</li>
+                      <li>Come for yoga, stay for bubbly and treats!</li>
+                    </ul>
 
-                    <h3>Babysitting at CFFC</h3>
-                    <p>- Babysitter on site for 11 AM workout on Mondays, Wednesday, and Fridays</p>
-                    <p>- $30 per month or $5/hour for one child and $3/hour for each additional child</p>
+                    <h3 style="padding:5px 0">Babysitting at CFFC</h3>
+                    <ul>
+                      <li> Babysitter on site for 11 AM workout on Mondays, Wednesday, and Fridays</li>
+                      <li>$30 per month or $5/hour for one child and $3/hour for each additional child</li>
+                    </ul>
 
-                    <p>February Schedule <a href="http://www.crossfitfallschurch.com/schedule-and-fees/schedule/">here!</a></p>
+                    <p style="padding:5px 0;>February Schedule <a href="http://www.crossfitfallschurch.com/schedule-and-fees/schedule/">here!</a></p>
                     <h2>Community</h2>
                     <ul class="horizontal">
                         <li>
@@ -126,7 +130,7 @@
                     </p>
                     <p>
                       <a href="http://www.crossfitadaptation.com/">
-                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/sweatlogo.gif" alt="CrossFit Adaptation" width="" height="">
+                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/sweatlogo.gif" alt="CrossFit Adaptation" width="200px" height="92px">
                       </a>
                     </p>
                     <hr>
