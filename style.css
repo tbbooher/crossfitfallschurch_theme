@@ -16,7 +16,7 @@ html {
 }
 
 th {
-   font-weight: bolder;
+   font-weight: bolder !important;
    color: black;
 }
 
