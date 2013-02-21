@@ -91,16 +91,21 @@
                     </ul>
                     <p style="padding-top:12px"><a href="https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm">Sign Up Now</a></p>
                     <h2>News</h2>
-                    <h3 style="padding:5px 0">CFFC Yoga Grand Opening</h3>
+
+                    <h3 style="padding:5px 0">Teacher Discount</h3>
                     <ul class="dash-list">
-                      <li>February 9th at 9 AM</li>
-                      <li>Come for yoga, stay for bubbly and treats!</li>
+                      <li>CFFC is proud to announce that full-time teachers are now eligible for our 15% active military/law enforcement/fire fighter discount!</li>
                     </ul>
 
-                    <h3 style="padding:5px 0">Babysitting at CFFC</h3>
+                    <h3 style="padding:5px 0">Yoga</h3>
                     <ul class="dash-list">
-                      <li> Babysitter on site for 11 AM workout on Mondays, Wednesday, and Fridays</li>
-                      <li>$30 per month or $5/hour for one child and $3/hour for each additional child</li>
+                      <li>CFFC now offers yoga twice a week - 1830 on Tuesdays and 0900 on Saturdays.</li>
+                    </ul>
+
+                    <h3 style="padding:5px 0">Babysitting</h3>
+                    <ul class="dash-list">
+                      <li>Babysitter on site for 1100 Group Class every Monday, Wednesday, and Friday.</li>
+                      <li>$30 per month or $5/hour for one child and $3/hour for each additional child.</li>
                     </ul>
 
                     <p style="padding:5px 0;">February Schedule <a href="http://www.crossfitfallschurch.com/schedule-and-fees/schedule/">here!</a></p>
