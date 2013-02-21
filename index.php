@@ -91,7 +91,7 @@
                     </ul>
                     <p style="padding-top:12px"><a href="https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm">Sign Up Now</a></p>
                     <h2>News</h2>
-
+                    <?php $recent = new WP_Query("page_id=686"); while($recent->have_posts()) : $recent->the_post();?> <?php the_title(); ?> <?php the_content(); ?> <?php endwhile; ?>
                     <h3 style="padding:5px 0">Teacher Discount</h3>
                     <ul class="dash-list">
                       <li>CFFC is proud to announce that full-time teachers are now eligible for our 15% active military/law enforcement/fire fighter discount!</li>
