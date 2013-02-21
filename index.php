@@ -91,7 +91,7 @@
                     </ul>
                     <p style="padding-top:12px"><a href="https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm">Sign Up Now</a></p>
                     <h2>News</h2>
-                    <?php $recent = new WP_Query("page_id=686"); while($recent->have_posts()) : $recent->the_post();?> <?php the_title(); ?> <?php the_content(); ?> <?php endwhile; ?>
+                    <?php $recent = new WP_Query("page_id=686"); while($recent->have_posts()) : $recent->the_post();?> <?php the_content(); ?> <?php endwhile; ?>
 
                     <h2>Community</h2>
                     <ul class="horizontal">
