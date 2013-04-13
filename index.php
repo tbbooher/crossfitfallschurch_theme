@@ -90,10 +90,9 @@
                        <li>Commitment to your success</li>
                     </ul>
                     <p style="padding-top:12px"><a href="https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm">Sign Up Now</a></p>
-                    <h2>CrossFit Kids</h2>
                     <p>
                       <a href="http://kids.crossfitfallschurch.com/">
-                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/CFFC_kids_logo.jpg">
+                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/CFFC_kids_logo.jpg" width="230px" height="76px">
                       </a>
                     </p>
                     <h2>News</h2>
