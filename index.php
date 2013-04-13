@@ -90,7 +90,7 @@
                        <li>Commitment to your success</li>
                     </ul>
                     <p style="padding-top:12px"><a href="https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm">Sign Up Now</a></p>
-                    <a href="http://kids.crossfitfallschurch.com/"><img src="/images/CFFC_kids_logo.jpg"></a>
+                    <a href="http://kids.crossfitfallschurch.com/"><img src="/wp-content/themes/crossfit_fallschurch_theme/images/CFFC_kids_logo.jpg"></a>
                     <h2>News</h2>
                     <?php $recent = new WP_Query("page_id=686"); while($recent->have_posts()) : $recent->the_post();?> <?php the_content(); ?> <?php endwhile; ?>
 
