@@ -1052,3 +1052,7 @@ input[type="password"], input[type="search"], isindex {
 input#searchsubmit {
     display: none;
 }
+
+.white {
+  color: white;
+}
