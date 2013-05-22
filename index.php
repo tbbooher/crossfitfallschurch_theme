@@ -141,3 +141,5 @@
     </div><!-- LayoutRowLink -->
 
 <?php get_footer(); ?>
+
+<p style="font-color:white"><a href="http://www.ptpnova.com/">PTP Nova</a></p>
