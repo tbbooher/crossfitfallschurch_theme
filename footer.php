@@ -69,8 +69,9 @@
 
             <div class="LayoutGrid-1-4 LayoutSlimGrid-1-2 LinkInvert LinkStrong">
                 <div class="LayoutCellSides LayoutCellBottom LinkInvert">
-                    <p class="SiteFooterRow TextSmall">Copyright &copy; 2012 CrossFit Falls Church. All rights
-                        reserved.</p>
+                    <p class="SiteFooterRow TextSmall">Copyright &copy; 2012 CrossFit Falls Church.
+                        <a href="http://www.ptpnova.com/">All rights
+                        reserved.</a></p>
                 </div>
             </div>
         </div>
