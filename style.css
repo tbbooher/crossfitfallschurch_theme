@@ -571,7 +571,12 @@ h3 {
 }
 
 .comment-author {
-    font-size: 13px;
+  font-size: 13px;
+}
+
+.comment-content p {
+ padding-bottom: 15px;
+ margin-bottom: 15px; 
 }
 
 #Sidebar ul {
