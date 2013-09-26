@@ -128,7 +128,7 @@
                         <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/sweatlogo.gif" alt="CrossFit Adaptation" width="200px" height="92px">
                       </a>
                     </p>
-                    <p>
+                    <p style="padding-top:20px;">
                       <a href="http://www.thejacksonclinics.com/services/health/crossfit-program">
                         <img src="/wp-content/themes/crossfit_fallschurch_theme/images/tjc_web_banner.jpg" alt="the jackson clinics" width="150" height="100" title="The Jackson Clinics" style="border:1px solid black;">
                       </a>
