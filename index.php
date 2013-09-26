@@ -133,6 +133,12 @@
                       <a href="http://dc.mypowersupply.com/">
                         <img src="/wp-content/themes/crossfit_fallschurch_theme/images/powersupply-crest.png" alt="catalyst meals" width="170" height="69" title="Power Supply Meals" style="border:none;">
                       </a>
+                    </p>
+                    <!-- CUSTOM FIT MEALS LOGO custom_fit_meals.jpg -->
+                    <p style="padding-top:20px;">
+                      <a href="https://www.customfitmeals.com/order-meals/">
+                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/custom_fit_meals.jpg" alt="Custom Fit Meals" width="200" height="107" title="Custom Fit Meals" style="border:none;">
+                      </a>
                     </p>  
 		                <p>
                       <a href="http://www.crossfitkids.com"><img src="http://media.crossfit.com/badges/CFK_logo_v_tag_color_lightbg.png"></a>
