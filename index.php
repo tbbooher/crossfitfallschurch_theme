@@ -130,7 +130,7 @@
                     </p>
                     <!-- POWER SUPPLY LOGO -->
                     <a href="http://dc.mypowersupply.com/">
-                      <img src="/wp-content/themes/crossfit_adaptation_theme/images/powersupply-crest.png" alt="catalyst meals" width="170" height="69" title="Power Supply Meals" style="border:none;">
+                      <img src="/wp-content/themes/crossfit_fallschurch_theme/images/powersupply-crest.png" alt="catalyst meals" width="170" height="69" title="Power Supply Meals" style="border:none;">
                     </a>
 		                <p>
                       <a href="http://www.crossfitkids.com"><img src="http://media.crossfit.com/badges/CFK_logo_v_tag_color_lightbg.png"></a>
