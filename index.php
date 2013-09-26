@@ -129,7 +129,7 @@
                       </a>
                     </p>
                     <!-- POWER SUPPLY LOGO -->
-                    <p>
+                    <p style="padding-top:19px;">
                       <a href="http://dc.mypowersupply.com/">
                         <img src="/wp-content/themes/crossfit_fallschurch_theme/images/powersupply-crest.png" alt="catalyst meals" width="170" height="69" title="Power Supply Meals" style="border:none;">
                       </a>
