@@ -148,11 +148,18 @@
 		                <p>
                       <a href="http://www.crossfitkids.com"><img src="http://media.crossfit.com/badges/CFK_logo_v_tag_color_lightbg.png"></a>
 		                </p>
+                    <!-- cross functional rehab -->
                     <p style="padding-top:0px;">
                       <a href="http://crossfunctionalrehab.com/">
                         <img src="/wp-content/themes/crossfit_fallschurch_theme/images/cross_functional.png" alt="Cross Functional" title="Cross Functional" style="border:none;">
                       </a>
-                    </p>  
+                    </p>
+                    <!-- kx -->
+                    <p style="padding-top:0px;">
+                      <a href="http://www.facebook.com/kxphotos">
+                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/kx.gif" alt="Kx" title="Kx" style="border:none;">
+                      </a>
+                    </p>                     
                     <hr>
                     <ul class="SiteFooterLinkList">
                       <li style="list-style-type: none;"><?php get_search_form(); ?></li>
