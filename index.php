@@ -156,7 +156,7 @@
                     </p>
                     <!-- kx -->
                     <p style="padding-top:0px;">
-                      <a href="http://www.facebook.com/kxphotos">
+                      <a href="http://www.kxphotos.com/">
                         <img src="/wp-content/themes/crossfit_fallschurch_theme/images/kx.gif" alt="Kx" title="Kx" style="border:none;">
                       </a>
                     </p>                     
