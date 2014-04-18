@@ -185,7 +185,7 @@
         </div>
 
          <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="corporate_panel">
-            <span class="SiteHeaderBarLink"><a href="http://corporate.crossfitadaptation.com/">Corporate</a></span>
+            <span class="SiteHeaderBarLink"><a href="http://corporate.crossfitadaptation.com/" style="text-decoration:none;">Corporate</a></span>
          </div>
 
         <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="about_us_panel">
