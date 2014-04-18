@@ -186,27 +186,7 @@
 
          <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="corporate_panel">
             <span class="SiteHeaderBarLink"><a href="http://corporate.crossfitadaptation.com/">Corporate</a></span>
-
-            <div class="SiteHeaderDropPanel" id="AboutUsPanel" style="display: none;">
-
-                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="about_us1">
-                    <span class="SiteHeaderPanelHeader"><a href="/about-us/staff/">Staff</a></span>
-                </div>
-
-                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="about_us2">
-                    <span class="SiteHeaderPanelHeader"><a href="/about-us/community/">Our Community</a></span>
-                </div>
-
-                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="about_us3">
-                    <span class="SiteHeaderPanelHeader"><a href="/about-us/location/">Location</a></span>
-                </div>
-
-                <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="about_us4">
-                    <span class="SiteHeaderPanelHeader"><a href="/about-us/contact/">Contact</a></span>
-                </div>
-
-            </div>
-        </div>
+         </div>
 
         <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="about_us_panel">
             <span class="SiteHeaderBarLink">About Us</span>
