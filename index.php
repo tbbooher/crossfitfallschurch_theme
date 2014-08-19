@@ -153,13 +153,7 @@
                       <a href="http://crossfunctionalrehab.com/">
                         <img src="/wp-content/themes/crossfit_fallschurch_theme/images/cross_functional.png" alt="Cross Functional" title="Cross Functional" style="border:none;">
                       </a>
-                    </p>
-                    <!-- kx -->
-                    <p style="padding-top:0px;">
-                      <a href="http://www.kxphotos.com/">
-                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/kx.gif" alt="Kx" title="Kx" style="border:none;">
-                      </a>
-                    </p>                     
+                    </p>                 
                     <hr>
                     <ul class="SiteFooterLinkList">
                       <li style="list-style-type: none;"><?php get_search_form(); ?></li>
