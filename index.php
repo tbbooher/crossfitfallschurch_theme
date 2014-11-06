@@ -6,7 +6,7 @@
    * and one of the two required files for a theme (the other being style.css).
    * It is used to display a page when nothing more specific matches a query.
    * E.g., it puts together the home page when no home.php file exists.
-   * Learn more: http://codex.wordpress.org/Template_Hierarchy
+  * Learn more: http://codex.wordpress.org/Template_Hierarchy
    *
    * @package WordPress
    * @subpackage Twenty_Eleven
@@ -139,16 +139,7 @@
                       <a href="https://www.customfitmeals.com/order-meals/">
                         <img src="/wp-content/themes/crossfit_fallschurch_theme/images/custom_fit_meals.jpg" alt="Custom Fit Meals" width="200" height="107" title="Custom Fit Meals" style="border:none;">
                       </a>
-                    </p>  
-		                <p>
-                      <a href="http://www.crossfitkids.com"><img src="http://media.crossfit.com/badges/CFK_logo_v_tag_color_lightbg.png"></a>
-		                </p>
-                    <!-- cross functional rehab -->
-                    <p style="padding-top:0px;">
-                      <a href="http://crossfunctionalrehab.com/">
-                        <img src="/wp-content/themes/crossfit_fallschurch_theme/images/cross_functional.png" alt="Cross Functional" title="Cross Functional" style="border:none;">
-                      </a>
-                    </p>                 
+                    </p>
                     <hr>
                     <ul class="SiteFooterLinkList">
                       <li style="list-style-type: none;"><?php get_search_form(); ?></li>
