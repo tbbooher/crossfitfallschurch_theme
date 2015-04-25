@@ -13,6 +13,10 @@
    */
 
    get_header(); ?>
+<img src="<?php bloginfo('wpurl'); ?>/wp-content/themes/crossfit_fallschurch_theme/images/front_page/_community.jpg" alt="" >
+<div style="position: absolute; bottom: 0; left: 0.5em; width: 400px; font-weight: bold; color: #fff;">
+<p>(text to appear at the bottom left of the image)</p>
+</div>
 <div class="LayoutP LayoutCenter ArticleGrid">
     <div class="LayoutRow Link">
         <div class="LayoutBreakAfter">
@@ -20,16 +24,19 @@
                 <div>
                     <div id="slider" class="nivoSlider">
                         <a href="/get-started/">
-                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/_community.jpg" alt="" >
+                          <img src="<?php bloginfo('wpurl'); ?>/wp-content/themes/crossfit_fallschurch_theme/images/front_page/_community.jpg" alt="" >
+                                <p class="text">
+                                    Hello World!
+                                </p>
                         </a>
                         <a href="/get-started/">
-                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/_professional_staff.jpg" alt="" >
+                          <img src="<?php bloginfo('wpurl'); ?>/wp-content/themes/crossfit_fallschurch_theme/images/front_page/_professional_staff.jpg" alt="" >
                         </a>
                         <a href="/get-started/">
-                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/get_results.jpg" alt="" >
+                          <img src="<?php bloginfo('wpurl'); ?>/wp-content/themes/crossfit_fallschurch_theme/images/front_page/get_results.jpg" alt="" >
                         </a>
                         <a href="/get-started/">
-                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/_free_workout.jpg" alt="" >
+                          <img src="<?php bloginfo('wpurl'); ?>/wp-content/themes/crossfit_fallschurch_theme/images/front_page/_free_workout.jpg" alt="" >
                         </a>
                     </div>
                 </div>
