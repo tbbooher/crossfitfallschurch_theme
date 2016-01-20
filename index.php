@@ -85,11 +85,12 @@
                 <div id="infobar">
                     <h2 style="font-size:2em;">Why CFFC?</h2>
                     <ul class="dash-list">
-                       <li>Supportive community</li>
-                       <li>Professional and caring coaches</li>
-                       <li>Commitment to your success</li>
+			    <li>Fitness programs for all skill levels</li>
+			    <li>Experienced, knowledgeable coaches</li>
+			    <li>Family-friendly community</li>
+			    <li>Commitment to your success</li>
                     </ul>
-                    <p style="padding-top:12px"><a href="https://crossfitfallschurch.zenplanner.com/zenplanner/portal/sign-up-now.cfm">Sign Up Now</a></p>
+                    <p style="padding-top:12px"><a href="http://cfa_cffc.wodify.com/OnlineSalesPortal/Homepage.aspx?IsMobile=False&OriginalURL=">Sign Up Now</a></p>
 
                     <h2>News</h2>
                     <?php $recent = new WP_Query("page_id=686"); while($recent->have_posts()) : $recent->the_post();?> <?php the_content(); ?> <?php endwhile; ?>
