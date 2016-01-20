@@ -26,9 +26,6 @@
                           <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/_professional_staff.jpg" alt="" >
                         </a>
                         <a href="/get-started/">
-                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/get_results.jpg" alt="" >
-                        </a>
-                        <a href="/get-started/">
                           <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/_free_workout.jpg" alt="" >
                         </a>
                     </div>
