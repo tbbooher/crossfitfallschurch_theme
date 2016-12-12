@@ -20,13 +20,26 @@
                 <div>
                     <div id="slider" class="nivoSlider">
                         <a href="/get-started/">
-                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/_community.jpg" alt="" >
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/cffc_banner1.jpg" alt="" >
                         </a>
                         <a href="/get-started/">
-                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/_professional_staff.jpg" alt="" >
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/cffc_banner2.jpg" alt="" >
+<!--                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/_professional_staff.jpg" alt="" > -->
                         </a>
                         <a href="/get-started/">
-                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/_free_workout.jpg" alt="" >
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/cffc_banner3.jpg" alt="" >
+                        </a>
+                        <a href="/get-started/">
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/cffc_banner4.jpg" alt="" >
+                        </a>
+                        <a href="/get-started/">
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/cffc_banner5.jpg" alt="" >
+                        </a>
+                        <a href="/get-started/">
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/cffc_banner6.jpg" alt="" >
+                        </a>
+                        <a href="/get-started/">
+                          <img src="/wp-content/themes/crossfit_fallschurch_theme/images/front_page/cffc_banner7.jpg" alt="" >
                         </a>
                     </div>
                 </div>
