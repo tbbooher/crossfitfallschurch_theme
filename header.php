@@ -121,7 +121,7 @@
 
     <div class="SiteHeaderBar" id="shBar">
         <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="introduction_panel">
-            <span class="SiteHeaderBarLink">Introduction</span>
+            <span class="SiteHeaderBarLink">Intro</span>
 
             <div class="SiteHeaderDropPanel" id="IntroductionPanel" style="display: none;">
                 <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="intro1">
@@ -142,7 +142,7 @@
         <a href="/get-started/" id="get_started" class="SiteHeaderBarItem SiteHeaderBarLink">Get Started</a>
 
         <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="our_programs_panel">
-            <span class="SiteHeaderBarLink">Our Programs</span>
+            <span class="SiteHeaderBarLink">Programs</span>
 
             <div class="SiteHeaderDropPanel" id="OurProgramsPanel" style="display: none; ">
 
@@ -184,8 +184,8 @@
             </div>
         </div>
 
-         <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="corporate_panel">
-            <span class="SiteHeaderBarLink"><a href="http://corporate.crossfitadaptation.com/" style="text-decoration:none;">Corporate</a></span>
+         <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="training_panel">
+            <span class="SiteHeaderBarLink"><a href="/personal-training/" style="text-decoration:none;">Personal Training</a></span>
          </div>
 
         <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="about_us_panel">

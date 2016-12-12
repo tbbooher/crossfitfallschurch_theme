@@ -132,12 +132,14 @@
                         <img src="/wp-content/themes/crossfit_fallschurch_theme/images/powersupply-crest.png" alt="catalyst meals" width="170" height="69" title="Power Supply Meals" style="border:none;">
                       </a>
                     </p>
-                    <!-- CUSTOM FIT MEALS LOGO custom_fit_meals.jpg -->
+                    <!-- CUSTOM FIT MEALS LOGO custom_fit_meals.jpg 
                     <p style="padding-top:20px;">
                       <a href="https://tri.freshmealplan.com/">
                         <img src="/wp-content/themes/crossfit_fallschurch_theme/images/fresh_meal.gif" alt="Fresh Meals" title="Custom Fit Meals" style="border:none;">
                       </a>
                     </p>
+                         CURRENTLY COMMENTED OUT!!
+                    -->
                     <hr>
                     <ul class="SiteFooterLinkList">
                       <li style="list-style-type: none;"><?php get_search_form(); ?></li>
